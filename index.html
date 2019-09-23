@@ -1,19 +1,205 @@
-<body style="color:#ccc;background-color:#666">
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+        <title>#!</title>
 
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+                integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+                crossorigin="anonymous"></script>
 
-  <div class="container text-center">
+        <!-- jquery-ui -->
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+                integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+                crossorigin="anonymous"></script>
 
-    <img src="flower.svg" style="height:66px;margin-top:33px">
+        <!-- jquery plugins -->
+        
+
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.bundle.min.js"
+                integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+                crossorigin="anonymous"></script>
+
+        <!-- font-awesome -->
+      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            rel="stylesheet"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+            crossorigin="anonymous">
+
+        <!-- fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
+
+        <!-- favicon -->
+        <head profile="http://www.w3.org/2005/10/profile">
+        <link rel="icon" type="image/png" href="/favicon">
+
+        <!-- local css -->
+        <link rel="stylesheet" href="/static/assets/css/base.css">
+
+        
+
+        
+    </head>
+
+    <body>
+        
+<div class="container">
+    <div class="header _clearfix">
+        
+        <h3 class="text-muted">
+            
+            #!
+        </h3>
+        <hr>
+    </div>
+
     
-    <h3 style="font-size:32px;margin-top:99px">Does it matter ?<h3>
-    <h4>We're building software that we know will last for 18 months</h4>
-    <p>
-      Thus build the essence of the software. Small set of responsibilities, well done. Reuse and enhance.
-    </p>
 
-  </div>
+<style>
+body {
+    height: 100%; /* FIXME: this has no effect */
+    background: linear-gradient(180deg,rgba(255,127,0,0),rgba(0,0,0,0)),
+                url(/static/homepage/bg/2.jpg)
+                no-repeat center center scroll;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    text-shadow: -1px -1px 0 white,
+                  1px -1px 0 white,
+                  -1px 1px 0 white,
+                  1px 1px 0 white,
+                  -2px -2px 6px white,
+                  2px -2px 6px white,
+                  -2px 2px 6px white,
+                  2px 2px 6px white;
+}
+</style>
+
+<div>
+    <div class="text-center">
+        <img class="icon-logo icon-spin" src="/static/assets/img/flower.svg" style="height:99px">
+
+        <h1 style="font-size:70px;
+                   font-family:'Tangerine',cursive;
+                   font-weight:700">
+            It does matter
+        <h1>
+        
+        <h4>We're building software in an evolving world</h4>
+        <p>
+            Thus build the essence. A set of responsibilities well scoped. Reuse and enhance.
+        </p>
+        <img class="icon-footer"
+             style="height:12px;
+                    margin:33px"
+             src="/static/assets/img/flower.svg">
+        <style>
+            li + li::before {
+                color: lightgray;
+                content: "\b7\a0\a0\a0";
+            }
+        </style>
+        <ul class="list-inline">
+            <li>
+                <a href="/about/projects/">
+                    <i class="fa fa-cubes" aria-hidden="true"></i>
+                    Projects
+                </a>
+            </li>
+            <li>
+                <a href="https://ch.linkedin.com/in/damiencorpataux">
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    Linkedin
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/damiencorpataux">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                    Github
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+
+    <style>
+        #logos {
+            word-wrap: nowrap;
+            margin-top: 125px;
+            _background-color: rgba(255,255,255,0.5);
+        }
+        #logos img {
+            height: 30px;
+            margin: 10px;
+            filter: grayscale(100%) brightness(100%) invert(1);
+            transition: all 1s;
+        }
+        #logos img:hover {
+            filter: grayscale(0%) brightness(150%);
+            transition: all .5s;
+        }
+    </style>
+    
+</div>
 
 
-</body>
+    <footer class="small text-muted text-right">
+        <hr>
+        <p>&copy; 2019</p>
+    </footer>
+
+</div> <!-- /container -->
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="/static/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+<script>
+    /**
+     * Replaces all <img src="*.svg"> with <svg> containing src contents.
+     * https://stackoverflow.com/a/35126817/1300775
+     */
+    $(document).ready(function() {
+        $('img[src$=".svg"]').each(function() {
+            var $img = jQuery(this);
+            var imgURL = $img.attr('src');
+            var attributes = $img.prop("attributes");
+
+            $.get(imgURL, function(data) {
+                // Get the SVG tag, ignore the rest
+                var $svg = jQuery(data).find('svg');
+
+                // Remove any invalid XML tags
+                $svg = $svg.removeAttr('xmlns:a');
+
+                // Loop through IMG attributes and apply on SVG
+                $.each(attributes, function() {
+                    $svg.attr(this.name, this.value);
+                });
+
+                // Replace IMG with SVG
+                $img.replaceWith($svg);
+            }, 'xml');
+        });
+    });
+</script>
+
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-9530903-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-9530903-1');
+</script>
+
+    </body>
+</html>

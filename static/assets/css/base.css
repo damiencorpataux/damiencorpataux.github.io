@@ -1,0 +1,40 @@
+/* Selection background */
+::-moz-selection {
+  background: lightgreen;
+}
+::selection {
+  background: lightgreen;
+}
+
+/* Links */
+a,
+a i.fa {
+    transition: color 0.15s ease;
+}
+a:hover {
+    text-decoration: none;
+    color: green;
+}
+a:hover i.fa,
+a i.fa:hover {
+    color: gray;
+}
+
+/* SVG icons */
+.icon-logo path {
+    fill: #f00040;
+    transition: fill 6s ease; /* out */
+}
+.icon-logo:hover path {
+    fill: #0df;
+    transition: fill 1s ease; /* in */
+}
+
+.icon-footer path {
+    fill: #eee;
+}
+
+.icon-spin {
+    animation: icon-spin 240s linear infinite;
+}
+@keyframes icon-spin { 100% { transform:rotate(360deg); } }

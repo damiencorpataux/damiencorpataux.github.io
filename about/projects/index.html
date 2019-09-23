@@ -1,0 +1,1259 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Projects</title>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+                integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+                crossorigin="anonymous"></script>
+
+        <!-- jquery-ui -->
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+                integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+                crossorigin="anonymous"></script>
+
+        <!-- jquery plugins -->
+        
+
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.bundle.min.js"
+                integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+                crossorigin="anonymous"></script>
+
+        <!-- font-awesome -->
+      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            rel="stylesheet"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+            crossorigin="anonymous">
+
+        <!-- fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
+
+        <!-- favicon -->
+        <head profile="http://www.w3.org/2005/10/profile">
+        <link rel="icon" type="image/png" href="/favicon">
+
+        <!-- local css -->
+        <link rel="stylesheet" href="/static/assets/css/base.css">
+
+        
+
+        
+    </head>
+
+    <body>
+        
+<div class="container">
+    <div class="header _clearfix">
+        
+        <h3 class="text-muted">
+            
+            <a href="/">
+                <img class="icon-logo icon-spin"
+                     style="height:1em; vertical-align:top; -webkit-filter: saturate(60%);"
+                     src="/static/assets/img/flower.svg">
+            </a>
+            
+            Projects
+        </h3>
+        <hr>
+    </div>
+
+    
+
+
+<form id="search" action="#">
+    <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search a keyword...">
+        <span class="input-group-btn">
+            <button class="btn btn-default" type="submit">
+                <!-- <span class="glyphicon glyphicon-search"></span> -->
+                <i class="fa fa-search"></i>
+            </button>
+        </span>
+    </div>
+    <small class="text-muted">
+        &mdash; <strong>Note:</strong> search highlights projects keywords that match <i>partial keywords</i> using the <i>or</i> operator.
+    </small>
+</form>
+
+<hr>
+
+<style>
+#projects {
+    _text-shadow: 0px 0px 1px white;
+    text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white,
+        -2px -2px 1px white,
+        2px -2px 1px white,
+        -2px 2px 1px white,
+        2px 2px 1px white;
+}
+#projects .badge {
+    text-shadow: none;
+}
+#projects > div {
+    overflow: hidden;
+}
+#projects .project-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+    background-image: url(none);
+    background-repeat: no-repeat;
+    background-position: center center;
+    _background-attachment: fixed;
+
+    background-size: cover;
+    _background-size: contain;
+
+    filter: blur(2px) opacity(0.1);
+}
+#projects a:hover {
+    background-color: blue;
+}
+#projects div:hover div.project-image {
+    filter: blur(0) opacity(0.25);
+    transition: all .20s;
+}
+</style>
+
+
+
+<div id="projects" class="row">
+
+    <a href="/about/projects/cryptotrading-automation/" style="color:black">
+        <div class="col-md-4" style="height:200px">
+            <div class="project-image"style="background-image: url(/about/projects/static/cryptotrading-automation-code.png)"></div>
+                <h4>
+                    Crypto-trading strategy backtesting
+                    <strong style="white-space:nowrap" class="small text-muted">
+                        2019
+                    </strong>
+                </h4>
+                <div class="small">
+                    <p>Cryptocurrency trading algorithm backtesting</p>
+                    <p class="small text-muted">
+                        
+    <abbr>ccxt</abbr>&nbsp;
+    <abbr>git</abbr>&nbsp;
+    <abbr>javascript</abbr>&nbsp;
+    <abbr>matplotlib</abbr>&nbsp;
+    <abbr>numpy</abbr>&nbsp;
+    <abbr>pandas</abbr>&nbsp;
+    <abbr>python</abbr>&nbsp;
+    <abbr>rest</abbr>&nbsp;
+    
+
+                    </p>
+                </div>
+            <br>
+        </div>
+    </a>
+
+
+
+    <a href="/about/projects/nlp-processor/" style="color:black">
+        <div class="col-md-4" style="height:200px">
+            <div class="project-image"style="background-image: url(/about/projects/static/korsimoro.gif)"></div>
+                <h4>
+                    NLP processor to kumu.io visualization
+                    <strong style="white-space:nowrap" class="small text-muted">
+                        2019
+                    </strong>
+                </h4>
+                <div class="small">
+                    <p>Glossary coherence/issue analyzer for the decentralized identity (DID) white papers</p>
+                    <p class="small text-muted">
+                        
+    <abbr>agile</abbr>&nbsp;
+    <abbr>git</abbr>&nbsp;
+    <abbr>google-api</abbr>&nbsp;
+    <abbr>kumu</abbr>&nbsp;
+    <abbr>nlp-toolkit</abbr>&nbsp;
+    <abbr>python</abbr>&nbsp;
+    <abbr>rest</abbr>&nbsp;
+    
+
+                    </p>
+                </div>
+            <br>
+        </div>
+    </a>
+
+
+
+    <a href="/about/projects/policy-aware-recorder-cctv/" style="color:black">
+        <div class="col-md-4" style="height:200px">
+            <div class="project-image"></div>
+                <h4>
+                    iRODS based storage with policy automation
+                    <strong style="white-space:nowrap" class="small text-muted">
+                        2018
+                    </strong>
+                </h4>
+                <div class="small">
+                    <p>Using iRODS to automate storage of privacy-sensitive content with quarantine policy</p>
+                    <p class="small text-muted">
+                        
+    <abbr>4dv</abbr>&nbsp;
+    <abbr>agile</abbr>&nbsp;
+    <abbr>centos</abbr>&nbsp;
+    <abbr>debian</abbr>&nbsp;
+    <abbr>docker</abbr>&nbsp;
+    <abbr>git</abbr>&nbsp;
+    <abbr>irods</abbr>&nbsp;
+    <abbr>kanban</abbr>&nbsp;
+    <abbr>microservices</abbr>&nbsp;
+    <abbr>nginx</abbr>&nbsp;
+    <abbr>puppet</abbr>&nbsp;
+    <abbr>python</abbr>&nbsp;
+    <abbr>ubuntu</abbr>&nbsp;
+    <abbr>vagrant</abbr>&nbsp;
+    
+
+                    </p>
+                </div>
+            <br>
+        </div>
+    </a>
+
+</div>
+
+
+
+<div id="projects" class="row">
+
+    <a href="/about/projects/antiddos-openbsd/" style="color:black">
+        <div class="col-md-4" style="height:200px">
+            <div class="project-image"style="background-image: url(/about/projects/static/data.jpg)"></div>
+                <h4>
+                    Anti-DDOS system using OpenBSD and Packetfilter
+                    <strong style="white-space:nowrap" class="small text-muted">
+                        2018
+                    </strong>
+                </h4>
+                <div class="small">
+                    <p></p>
+                    <p class="small text-muted">
+                        
+    <abbr>openbsd</abbr>&nbsp;
+    <abbr>packetfilter</abbr>&nbsp;
+    <abbr>telecom</abbr>&nbsp;
+    
+
+                    </p>
+                </div>
+            <br>
+        </div>
+    </a>
+
+
+
+    <a href="/about/projects/psu-monitoring/" style="color:black">
+        <div class="col-md-4" style="height:200px">
+            <div class="project-image"style="background-image: url(/about/projects/static/psu-monitoring.jpg)"></div>
+                <h4>
+                    PSU Monitoring
+                    <strong style="white-space:nowrap" class="small text-muted">
+                        2017
+                    </strong>
+                </h4>
+                <div class="small">
+                    <p>Using a Raspberry Pi GPIO to monitor a PSU from CASA Systems</p>
+                    <p class="small text-muted">
+                        
+    <abbr>agile</abbr>&nbsp;
+    <abbr>backend</abbr>&nbsp;
+    <abbr>debian</abbr>&nbsp;
+    <abbr>electronics</abbr>&nbsp;
+    <abbr>flask</abbr>&nbsp;
+    <abbr>git</abbr>&nbsp;
+    <abbr>gpio</abbr>&nbsp;
+    <abbr>json</abbr>&nbsp;
+    <abbr>kanban</abbr>&nbsp;
+    <abbr>microservice</abbr>&nbsp;
+    <abbr>nginx</abbr>&nbsp;
+    <abbr>node.js</abbr>&nbsp;
+    <abbr>python</abbr>&nbsp;
+    <abbr>raspi</abbr>&nbsp;
+    <abbr>rest</abbr>&nbsp;
+    
+
+                    </p>
+                </div>
+            <br>
+        </div>
+    </a>
+
+
+
+    <a href="/about/projects/pwm-api/" style="color:black">
+        <div class="col-md-4" style="height:200px">
+            <div class="project-image"style="background-image: url(/about/projects/static/pwm.png)"></div>
+                <h4>
+                    PWM API
+                    <strong style="white-space:nowrap" class="small text-muted">
+                        2016
+                    </strong>
+                </h4>
+                <div class="small">
+                    <p>API for interacting between the access network devices and the organisation&#39;s Process Workflow Management tool</p>
+                    <p class="small text-muted">
+                        
+    <abbr>agile</abbr>&nbsp;
+    <abbr>apache</abbr>&nbsp;
+    <abbr>backend</abbr>&nbsp;
+    <abbr>debian</abbr>&nbsp;
+    <abbr>docsis</abbr>&nbsp;
+    <abbr>flask</abbr>&nbsp;
+    <abbr>ftth</abbr>&nbsp;
+    <abbr>git</abbr>&nbsp;
+    <abbr>json</abbr>&nbsp;
+    <abbr>kanban</abbr>&nbsp;
+    <abbr>mysql</abbr>&nbsp;
+    <abbr>rest</abbr>&nbsp;
+    <abbr>snmp</abbr>&nbsp;
+    <abbr>webservice</abbr>&nbsp;
+    
+
+                    </p>
+                </div>
+            <br>
+        </div>
+    </a>
+
+</div>
+
+
+
+<div id="projects" class="row">
+
+    <a href="/about/projects/selfcare-api/" style="color:black">
+        <div class="col-md-4" style="height:200px">
+            <div class="project-image"style="background-image: url(/about/projects/static/selfcare-api.png)"></div>
+                <h4>
+                    Citycable Selfcare API
+                    <strong style="white-space:nowrap" class="small text-muted">
+                        2016
+                    </strong>
+                </h4>
+                <div class="small">
+                    <p>Customer Selfcare API acting as a functional and security facade for an outsourced Selfcare Web-GUI</p>
+                    <p class="small text-muted">
+                        
+    <abbr>agile</abbr>&nbsp;
+    <abbr>apache</abbr>&nbsp;
+    <abbr>backend</abbr>&nbsp;
+    <abbr>debian</abbr>&nbsp;
+    <abbr>docsis</abbr>&nbsp;
+    <abbr>flask</abbr>&nbsp;
+    <abbr>ftth</abbr>&nbsp;
+    <abbr>git</abbr>&nbsp;
+    <abbr>json</abbr>&nbsp;
+    <abbr>kanban</abbr>&nbsp;
+    <abbr>mysql</abbr>&nbsp;
+    <abbr>rest</abbr>&nbsp;
+    <abbr>snmp</abbr>&nbsp;
+    <abbr>soap</abbr>&nbsp;
+    <abbr>webservice</abbr>&nbsp;
+    
+
+                    </p>
+                </div>
+            <br>
+        </div>
+    </a>
+
+
+
+    <a href="/about/projects/docsis-topology/" style="color:black">
+        <div class="col-md-4" style="height:200px">
+            <div class="project-image"style="background-image: url(/about/projects/static/docsis-topology.png)"></div>
+                <h4>
+                    DOCSIS Topology Tool
+                    <strong style="white-space:nowrap" class="small text-muted">
+                        2015
+                    </strong>
+                </h4>
+                <div class="small">
+                    <p>REST representation of the DOCSIS topology (including discovery, presentation, interrogation)</p>
+                    <p class="small text-muted">
+                        
+    <abbr>agile</abbr>&nbsp;
+    <abbr>angular</abbr>&nbsp;
+    <abbr>apache</abbr>&nbsp;
+    <abbr>backend</abbr>&nbsp;
+    <abbr>debian</abbr>&nbsp;
+    <abbr>docsis</abbr>&nbsp;
+    <abbr>flask</abbr>&nbsp;
+    <abbr>git</abbr>&nbsp;
+    <abbr>json</abbr>&nbsp;
+    <abbr>kanban</abbr>&nbsp;
+    <abbr>mysql</abbr>&nbsp;
+    <abbr>node.js</abbr>&nbsp;
+    <abbr>reactjs</abbr>&nbsp;
+    <abbr>rest</abbr>&nbsp;
+    <abbr>snmp</abbr>&nbsp;
+    <abbr>webservice</abbr>&nbsp;
+    
+
+                    </p>
+                </div>
+            <br>
+        </div>
+    </a>
+
+
+
+    <a href="/about/projects/docsis-map/" style="color:black">
+        <div class="col-md-4" style="height:200px">
+            <div class="project-image"style="background-image: url(/about/projects/static/hfc-map.png)"></div>
+                <h4>
+                    DOCSIS QOS Map
+                    <strong style="white-space:nowrap" class="small text-muted">
+                        2015
+                    </strong>
+                </h4>
+                <div class="small">
+                    <p>Cable-modems HF signal quality map</p>
+                    <p class="small text-muted">
+                        
+    <abbr>agile</abbr>&nbsp;
+    <abbr>backend</abbr>&nbsp;
+    <abbr>bootstrap</abbr>&nbsp;
+    <abbr>css</abbr>&nbsp;
+    <abbr>debian</abbr>&nbsp;
+    <abbr>docsis</abbr>&nbsp;
+    <abbr>flask</abbr>&nbsp;
+    <abbr>frontend</abbr>&nbsp;
+    <abbr>geojson</abbr>&nbsp;
+    <abbr>gis</abbr>&nbsp;
+    <abbr>git</abbr>&nbsp;
+    <abbr>google-api</abbr>&nbsp;
+    <abbr>html</abbr>&nbsp;
+    <abbr>javascript</abbr>&nbsp;
+    <abbr>jquery</abbr>&nbsp;
+    <abbr>kaban</abbr>&nbsp;
+    <abbr>nginx</abbr>&nbsp;
+    <abbr>openlayers</abbr>&nbsp;
+    <abbr>postgis</abbr>&nbsp;
+    <abbr>postgres</abbr>&nbsp;
+    <abbr>python</abbr>&nbsp;
+    <abbr>reactjs</abbr>&nbsp;
+    <abbr>rest</abbr>&nbsp;
+    <abbr>snmp</abbr>&nbsp;
+    <abbr>uwsgi</abbr>&nbsp;
+    
+
+                    </p>
+                </div>
+            <br>
+        </div>
+    </a>
+
+</div>
+
+
+
+<div id="projects" class="row">
+
+    <a href="/about/projects/sas/" style="color:black">
+        <div class="col-md-4" style="height:200px">
+            <div class="project-image"style="background-image: url(/about/projects/static/sas.png)"></div>
+                <h4>
+                    SAS, Subscriber Activation System
+                    <strong style="white-space:nowrap" class="small text-muted">
+                        2014
+                    </strong>
+                </h4>
+                <div class="small">
+                    <p>Provisioning system for customer service activation management (DOCSIS, FTTH, VoIP)</p>
+                    <p class="small text-muted">
+                        
+    <abbr>agile</abbr>&nbsp;
+    <abbr>apache</abbr>&nbsp;
+    <abbr>backend</abbr>&nbsp;
+    <abbr>bootstrap</abbr>&nbsp;
+    <abbr>css</abbr>&nbsp;
+    <abbr>debian</abbr>&nbsp;
+    <abbr>docsis</abbr>&nbsp;
+    <abbr>flask</abbr>&nbsp;
+    <abbr>frontend</abbr>&nbsp;
+    <abbr>ftth</abbr>&nbsp;
+    <abbr>git</abbr>&nbsp;
+    <abbr>html</abbr>&nbsp;
+    <abbr>javascript</abbr>&nbsp;
+    <abbr>jquery</abbr>&nbsp;
+    <abbr>json</abbr>&nbsp;
+    <abbr>kanban</abbr>&nbsp;
+    <abbr>mysql</abbr>&nbsp;
+    <abbr>python</abbr>&nbsp;
+    <abbr>reactjs</abbr>&nbsp;
+    <abbr>rest</abbr>&nbsp;
+    <abbr>snmp</abbr>&nbsp;
+    <abbr>telecom</abbr>&nbsp;
+    
+
+                    </p>
+                </div>
+            <br>
+        </div>
+    </a>
+
+
+
+    <a href="/about/projects/monitoring-wall-remote/" style="color:black">
+        <div class="col-md-4" style="height:200px">
+            <div class="project-image"style="background-image: url(/about/projects/static/the-wall.png)"></div>
+                <h4>
+                    The Wall, Monitoring Wall Controller
+                    <strong style="white-space:nowrap" class="small text-muted">
+                        2014
+                    </strong>
+                </h4>
+                <div class="small">
+                    <p>Web remote control for the NOC monitoring wall (screen and spinetix projects controller)</p>
+                    <p class="small text-muted">
+                        
+    <abbr>agile</abbr>&nbsp;
+    <abbr>apache</abbr>&nbsp;
+    <abbr>backend</abbr>&nbsp;
+    <abbr>bootstrap</abbr>&nbsp;
+    <abbr>css</abbr>&nbsp;
+    <abbr>debian</abbr>&nbsp;
+    <abbr>flask</abbr>&nbsp;
+    <abbr>frontend</abbr>&nbsp;
+    <abbr>git</abbr>&nbsp;
+    <abbr>html</abbr>&nbsp;
+    <abbr>javascript</abbr>&nbsp;
+    <abbr>jquery</abbr>&nbsp;
+    <abbr>kanban</abbr>&nbsp;
+    <abbr>pjlink</abbr>&nbsp;
+    <abbr>python</abbr>&nbsp;
+    <abbr>reactjs</abbr>&nbsp;
+    <abbr>rest</abbr>&nbsp;
+    <abbr>spinetix</abbr>&nbsp;
+    
+
+                    </p>
+                </div>
+            <br>
+        </div>
+    </a>
+
+
+
+    <a href="/about/projects/jquery-smokeping-zoom/" style="color:black">
+        <div class="col-md-4" style="height:200px">
+            <div class="project-image"style="background-image: url(/about/projects/static/jquery-smokeping-zoom.gif)"></div>
+                <h4>
+                    JQuery Plugin: jquery-smokeping-zoom
+                    <strong style="white-space:nowrap" class="small text-muted">
+                        2014
+                    </strong>
+                </h4>
+                <div class="small">
+                    <p>A JQuery plugin for zooming in smokeping (and other) graphs</p>
+                    <p class="small text-muted">
+                        
+    <abbr>frontend</abbr>&nbsp;
+    <abbr>git</abbr>&nbsp;
+    <abbr>javascript</abbr>&nbsp;
+    <abbr>jquery</abbr>&nbsp;
+    
+
+                    </p>
+                </div>
+            <br>
+        </div>
+    </a>
+
+</div>
+
+
+
+<div id="projects" class="row">
+
+    <a href="/about/projects/admin-sil/" style="color:black">
+        <div class="col-md-4" style="height:200px">
+            <div class="project-image"></div>
+                <h4>
+                    System administration
+                    <strong style="white-space:nowrap" class="small text-muted">
+                        2014
+                    </strong>
+                </h4>
+                <div class="small">
+                    <p>Availability, security, virtualisation, maintenance, performance, tuning</p>
+                    <p class="small text-muted">
+                        
+    <abbr>centos</abbr>&nbsp;
+    <abbr>debian</abbr>&nbsp;
+    <abbr>docsis</abbr>&nbsp;
+    <abbr>ftth</abbr>&nbsp;
+    <abbr>puppet</abbr>&nbsp;
+    <abbr>redhat</abbr>&nbsp;
+    <abbr>telecom</abbr>&nbsp;
+    <abbr>vmware</abbr>&nbsp;
+    <abbr>windows</abbr>&nbsp;
+    
+
+                    </p>
+                </div>
+            <br>
+        </div>
+    </a>
+
+
+
+    <a href="/about/projects/cus-ofs/" style="color:black">
+        <div class="col-md-4" style="height:200px">
+            <div class="project-image"style="background-image: url(/about/projects/static/cusofs.png)"></div>
+                <h4>
+                    CUS-OFS Reporting tool
+                    <strong style="white-space:nowrap" class="small text-muted">
+                        2012
+                    </strong>
+                </h4>
+                <div class="small">
+                    <p>Capture and reporting tool of human resources effort</p>
+                    <p class="small text-muted">
+                        
+    <abbr>agile</abbr>&nbsp;
+    <abbr>apache</abbr>&nbsp;
+    <abbr>backend</abbr>&nbsp;
+    <abbr>bootstrap</abbr>&nbsp;
+    <abbr>css</abbr>&nbsp;
+    <abbr>extjs</abbr>&nbsp;
+    <abbr>frontend</abbr>&nbsp;
+    <abbr>git</abbr>&nbsp;
+    <abbr>html</abbr>&nbsp;
+    <abbr>javascript</abbr>&nbsp;
+    <abbr>kanban</abbr>&nbsp;
+    <abbr>mysql</abbr>&nbsp;
+    <abbr>php</abbr>&nbsp;
+    <abbr>redhat</abbr>&nbsp;
+    <abbr>shibboleth</abbr>&nbsp;
+    <abbr>xfm</abbr>&nbsp;
+    
+
+                    </p>
+                </div>
+            <br>
+        </div>
+    </a>
+
+
+
+    <a href="/about/projects/iafbm/" style="color:black">
+        <div class="col-md-4" style="height:200px">
+            <div class="project-image"style="background-image: url(/about/projects/static/iafbm.png)"></div>
+                <h4>
+                    IAFBM
+                    <strong style="white-space:nowrap" class="small text-muted">
+                        2011
+                    </strong>
+                </h4>
+                <div class="small">
+                    <p>Administrative intranet of the Faculty of Biology and Medicine</p>
+                    <p class="small text-muted">
+                        
+    <abbr>agile</abbr>&nbsp;
+    <abbr>apache</abbr>&nbsp;
+    <abbr>backend</abbr>&nbsp;
+    <abbr>css</abbr>&nbsp;
+    <abbr>extjs</abbr>&nbsp;
+    <abbr>frontend</abbr>&nbsp;
+    <abbr>git</abbr>&nbsp;
+    <abbr>html</abbr>&nbsp;
+    <abbr>javascript</abbr>&nbsp;
+    <abbr>mysql</abbr>&nbsp;
+    <abbr>php</abbr>&nbsp;
+    <abbr>redhat</abbr>&nbsp;
+    <abbr>scrum</abbr>&nbsp;
+    <abbr>shibboleth</abbr>&nbsp;
+    <abbr>ubuntu</abbr>&nbsp;
+    <abbr>xfm</abbr>&nbsp;
+    
+
+                    </p>
+                </div>
+            <br>
+        </div>
+    </a>
+
+</div>
+
+
+
+<div id="projects" class="row">
+
+    <a href="/about/projects/tl/" style="color:black">
+        <div class="col-md-4" style="height:200px">
+            <div class="project-image"style="background-image: url(/about/projects/static/tl.png)"></div>
+                <h4>
+                    TL Mobile Timetable
+                    <strong style="white-space:nowrap" class="small text-muted">
+                        2010
+                    </strong>
+                </h4>
+                <div class="small">
+                    <p>A mobile TL timetable (transports lausannois), before TL Live existed</p>
+                    <p class="small text-muted">
+                        
+    <abbr>apache</abbr>&nbsp;
+    <abbr>backend</abbr>&nbsp;
+    <abbr>css</abbr>&nbsp;
+    <abbr>frontend</abbr>&nbsp;
+    <abbr>git</abbr>&nbsp;
+    <abbr>html</abbr>&nbsp;
+    <abbr>javascript</abbr>&nbsp;
+    <abbr>jquery</abbr>&nbsp;
+    <abbr>mobile</abbr>&nbsp;
+    <abbr>php</abbr>&nbsp;
+    
+
+                    </p>
+                </div>
+            <br>
+        </div>
+    </a>
+
+
+
+    <a href="/about/projects/okikoo-app/" style="color:black">
+        <div class="col-md-4" style="height:200px">
+            <div class="project-image"style="background-image: url(/about/projects/static/okikoo-app.png)"></div>
+                <h4>
+                    Okikoo mobile app REST API
+                    <strong style="white-space:nowrap" class="small text-muted">
+                        2010
+                    </strong>
+                </h4>
+                <div class="small">
+                    <p>REST API for the outsourced iPhone and Android mobile applications</p>
+                    <p class="small text-muted">
+                        
+    <abbr>agile</abbr>&nbsp;
+    <abbr>apache</abbr>&nbsp;
+    <abbr>debian</abbr>&nbsp;
+    <abbr>mysql</abbr>&nbsp;
+    <abbr>outsourcing</abbr>&nbsp;
+    <abbr>php</abbr>&nbsp;
+    <abbr>rest</abbr>&nbsp;
+    <abbr>scrum</abbr>&nbsp;
+    <abbr>svn</abbr>&nbsp;
+    <abbr>webservice</abbr>&nbsp;
+    <abbr>xfm</abbr>&nbsp;
+    
+
+                    </p>
+                </div>
+            <br>
+        </div>
+    </a>
+
+
+
+    <a href="/about/projects/okikoo/" style="color:black">
+        <div class="col-md-4" style="height:200px">
+            <div class="project-image"style="background-image: url(/about/projects/static/okikoo.png)"></div>
+                <h4>
+                    Okikoo directory
+                    <strong style="white-space:nowrap" class="small text-muted">
+                        2009
+                    </strong>
+                </h4>
+                <div class="small">
+                    <p>User-generated content-oriented business and private directory</p>
+                    <p class="small text-muted">
+                        
+    <abbr>agile</abbr>&nbsp;
+    <abbr>apache</abbr>&nbsp;
+    <abbr>backend</abbr>&nbsp;
+    <abbr>css</abbr>&nbsp;
+    <abbr>debian</abbr>&nbsp;
+    <abbr>extjs</abbr>&nbsp;
+    <abbr>frontend</abbr>&nbsp;
+    <abbr>html</abbr>&nbsp;
+    <abbr>javascript</abbr>&nbsp;
+    <abbr>jquery</abbr>&nbsp;
+    <abbr>kanban</abbr>&nbsp;
+    <abbr>mysql</abbr>&nbsp;
+    <abbr>php</abbr>&nbsp;
+    <abbr>shibboleth</abbr>&nbsp;
+    <abbr>svn</abbr>&nbsp;
+    <abbr>xfm</abbr>&nbsp;
+    
+
+                    </p>
+                </div>
+            <br>
+        </div>
+    </a>
+
+</div>
+
+
+
+<div id="projects" class="row">
+
+    <a href="/about/projects/swiss-rivers/" style="color:black">
+        <div class="col-md-4" style="height:200px">
+            <div class="project-image"style="background-image: url(/about/projects/static/swissrivers.png)"></div>
+                <h4>
+                    Swiss Rivers
+                    <strong style="white-space:nowrap" class="small text-muted">
+                        2009
+                    </strong>
+                </h4>
+                <div class="small">
+                    <p>Rivers flood prediction map</p>
+                    <p class="small text-muted">
+                        
+    <abbr>agile</abbr>&nbsp;
+    <abbr>apache</abbr>&nbsp;
+    <abbr>css</abbr>&nbsp;
+    <abbr>debian</abbr>&nbsp;
+    <abbr>extjs</abbr>&nbsp;
+    <abbr>frontend</abbr>&nbsp;
+    <abbr>gis</abbr>&nbsp;
+    <abbr>html</abbr>&nbsp;
+    <abbr>java</abbr>&nbsp;
+    <abbr>javascript</abbr>&nbsp;
+    <abbr>jquery</abbr>&nbsp;
+    <abbr>postgis</abbr>&nbsp;
+    <abbr>postgres</abbr>&nbsp;
+    <abbr>python</abbr>&nbsp;
+    <abbr>scrum</abbr>&nbsp;
+    <abbr>svn</abbr>&nbsp;
+    
+
+                    </p>
+                </div>
+            <br>
+        </div>
+    </a>
+
+
+
+    <a href="/about/projects/xfm-php/" style="color:black">
+        <div class="col-md-4" style="height:200px">
+            <div class="project-image"style="background-image: url(/about/projects/static/xfm-php.png)"></div>
+                <h4>
+                    PHP XFramework
+                    <strong style="white-space:nowrap" class="small text-muted">
+                        2009
+                    </strong>
+                </h4>
+                <div class="small">
+                    <p>Flask-like microframework in PHP (xfm-php on github)</p>
+                    <p class="small text-muted">
+                        
+    <abbr>css</abbr>&nbsp;
+    <abbr>git</abbr>&nbsp;
+    <abbr>html</abbr>&nbsp;
+    <abbr>php</abbr>&nbsp;
+    <abbr>xfm</abbr>&nbsp;
+    
+
+                    </p>
+                </div>
+            <br>
+        </div>
+    </a>
+
+
+
+    <a href="/about/projects/c2c-technical-trainer/" style="color:black">
+        <div class="col-md-4" style="height:200px">
+            <div class="project-image"style="background-image: url(/about/projects/static/formation-open-source-camptocamp.png)"></div>
+                <h4>
+                    Technical Trainer in the field of Geomatic Open Source Technologies
+                    <strong style="white-space:nowrap" class="small text-muted">
+                        2008
+                    </strong>
+                </h4>
+                <div class="small">
+                    <p>Dispensing 1-4 days courses on Open Source Geomatic technologies as a Technical Trainer for Camptocamp</p>
+                    <p class="small text-muted">
+                        
+    <abbr>debian</abbr>&nbsp;
+    <abbr>geoext</abbr>&nbsp;
+    <abbr>gis</abbr>&nbsp;
+    <abbr>java</abbr>&nbsp;
+    <abbr>javascript</abbr>&nbsp;
+    <abbr>mapfish</abbr>&nbsp;
+    <abbr>mapserver</abbr>&nbsp;
+    <abbr>openlayers</abbr>&nbsp;
+    <abbr>osgeo</abbr>&nbsp;
+    <abbr>postgis</abbr>&nbsp;
+    <abbr>postgres</abbr>&nbsp;
+    <abbr>python</abbr>&nbsp;
+    <abbr>qgis</abbr>&nbsp;
+    <abbr>windows</abbr>&nbsp;
+    
+
+                    </p>
+                </div>
+            <br>
+        </div>
+    </a>
+
+</div>
+
+
+
+<div id="projects" class="row">
+
+    <a href="/about/projects/cartoweb-geostat/" style="color:black">
+        <div class="col-md-4" style="height:200px">
+            <div class="project-image"style="background-image: url(/about/projects/static/cartoweb-geostat.png)"></div>
+                <h4>
+                    Geostat Plugin for the CartoWeb framework
+                    <strong style="white-space:nowrap" class="small text-muted">
+                        2007
+                    </strong>
+                </h4>
+                <div class="small">
+                    <p>Development of the Geostat Plugin for statistical data thematic mapping</p>
+                    <p class="small text-muted">
+                        
+    <abbr>debian</abbr>&nbsp;
+    <abbr>gis</abbr>&nbsp;
+    <abbr>javascript</abbr>&nbsp;
+    <abbr>mapserver</abbr>&nbsp;
+    <abbr>php</abbr>&nbsp;
+    <abbr>postgis</abbr>&nbsp;
+    <abbr>postgres</abbr>&nbsp;
+    
+
+                    </p>
+                </div>
+            <br>
+        </div>
+    </a>
+
+
+
+    <a href="/about/projects/vdl-guichet-cartographique/" style="color:black">
+        <div class="col-md-4" style="height:200px">
+            <div class="project-image"style="background-image: url(/about/projects/static/vdl-guichet-cartographique.png)"></div>
+                <h4>
+                    Guichet Cartographique Lausanne
+                    <strong style="white-space:nowrap" class="small text-muted">
+                        2007
+                    </strong>
+                </h4>
+                <div class="small">
+                    <p>Geographic map of the city of Lausanne</p>
+                    <p class="small text-muted">
+                        
+    <abbr>agile</abbr>&nbsp;
+    <abbr>apache</abbr>&nbsp;
+    <abbr>css</abbr>&nbsp;
+    <abbr>debian</abbr>&nbsp;
+    <abbr>frontend</abbr>&nbsp;
+    <abbr>gis</abbr>&nbsp;
+    <abbr>html</abbr>&nbsp;
+    <abbr>javascript</abbr>&nbsp;
+    <abbr>jquery</abbr>&nbsp;
+    <abbr>mapserver</abbr>&nbsp;
+    <abbr>postgis</abbr>&nbsp;
+    <abbr>postgres</abbr>&nbsp;
+    <abbr>scrum</abbr>&nbsp;
+    <abbr>svn</abbr>&nbsp;
+    
+
+                    </p>
+                </div>
+            <br>
+        </div>
+    </a>
+
+
+
+    <a href="/about/projects/ifremer/" style="color:black">
+        <div class="col-md-4" style="height:200px">
+            <div class="project-image"style="background-image: url(/about/projects/static/ifremer-sih.png)"></div>
+                <h4>
+                    IFREMER Halieutic GIS
+                    <strong style="white-space:nowrap" class="small text-muted">
+                        2007
+                    </strong>
+                </h4>
+                <div class="small">
+                    <p>Highly customizable geostatistical and thematic reporting tool</p>
+                    <p class="small text-muted">
+                        
+    <abbr>agile</abbr>&nbsp;
+    <abbr>apache</abbr>&nbsp;
+    <abbr>backend</abbr>&nbsp;
+    <abbr>css</abbr>&nbsp;
+    <abbr>debian</abbr>&nbsp;
+    <abbr>frontend</abbr>&nbsp;
+    <abbr>gis</abbr>&nbsp;
+    <abbr>html</abbr>&nbsp;
+    <abbr>java</abbr>&nbsp;
+    <abbr>javascript</abbr>&nbsp;
+    <abbr>mapserver</abbr>&nbsp;
+    <abbr>oracle</abbr>&nbsp;
+    <abbr>php</abbr>&nbsp;
+    <abbr>scrum</abbr>&nbsp;
+    <abbr>svn</abbr>&nbsp;
+    <abbr>wfs</abbr>&nbsp;
+    <abbr>xml</abbr>&nbsp;
+    <abbr>xsl</abbr>&nbsp;
+    
+
+                    </p>
+                </div>
+            <br>
+        </div>
+    </a>
+
+</div>
+
+
+
+<div id="projects" class="row">
+
+    <a href="/about/projects/heigvd-assistant/" style="color:black">
+        <div class="col-md-4" style="height:200px">
+            <div class="project-image"style="background-image: url(/about/projects/static/heigvd.jpg)"></div>
+                <h4>
+                    Assistant for the Database and Programming courses
+                    <strong style="white-space:nowrap" class="small text-muted">
+                        2006
+                    </strong>
+                </h4>
+                <div class="small">
+                    <p>Create, animate and assess labs with students</p>
+                    <p class="small text-muted">
+                        
+    <abbr>apache</abbr>&nbsp;
+    <abbr>backend</abbr>&nbsp;
+    <abbr>css</abbr>&nbsp;
+    <abbr>debian</abbr>&nbsp;
+    <abbr>frontend</abbr>&nbsp;
+    <abbr>gis</abbr>&nbsp;
+    <abbr>html</abbr>&nbsp;
+    <abbr>java</abbr>&nbsp;
+    <abbr>javascript</abbr>&nbsp;
+    <abbr>oracle</abbr>&nbsp;
+    <abbr>php</abbr>&nbsp;
+    <abbr>svn</abbr>&nbsp;
+    <abbr>wfs</abbr>&nbsp;
+    <abbr>xml</abbr>&nbsp;
+    <abbr>xsl</abbr>&nbsp;
+    
+
+                    </p>
+                </div>
+            <br>
+        </div>
+    </a>
+
+
+
+    <a href="/about/projects/heigvd-rad/" style="color:black">
+        <div class="col-md-4" style="height:200px">
+            <div class="project-image"style="background-image: url(/about/projects/static/heigvd.jpg)"></div>
+                <h4>
+                    Ra&amp;D at Geo-IICT institute
+                    <strong style="white-space:nowrap" class="small text-muted">
+                        2006
+                    </strong>
+                </h4>
+                <div class="small">
+                    <p>Research, implementation, conferences</p>
+                    <p class="small text-muted">
+                        
+    <abbr>gis</abbr>&nbsp;
+    <abbr>java</abbr>&nbsp;
+    <abbr>ogc</abbr>&nbsp;
+    <abbr>python</abbr>&nbsp;
+    <abbr>redhat</abbr>&nbsp;
+    <abbr>svn</abbr>&nbsp;
+    <abbr>wfs</abbr>&nbsp;
+    <abbr>xml</abbr>&nbsp;
+    <abbr>xsl</abbr>&nbsp;
+    
+
+                    </p>
+                </div>
+            <br>
+        </div>
+    </a>
+
+
+
+    <a href="/about/projects/cartoweb-ajax/" style="color:black">
+        <div class="col-md-4" style="height:200px">
+            <div class="project-image"style="background-image: url(/about/projects/static/cartoweb-ajax.png)"></div>
+                <h4>
+                    AJAX implementation in the CartoWeb GeoFramework
+                    <strong style="white-space:nowrap" class="small text-muted">
+                        2005
+                    </strong>
+                </h4>
+                <div class="small">
+                    <p>Implement the then new AJAX technology into the client-server-based CartoWeb framework</p>
+                    <p class="small text-muted">
+                        
+    <abbr>agile</abbr>&nbsp;
+    <abbr>backend</abbr>&nbsp;
+    <abbr>cartoweb</abbr>&nbsp;
+    <abbr>css</abbr>&nbsp;
+    <abbr>debian</abbr>&nbsp;
+    <abbr>frontend</abbr>&nbsp;
+    <abbr>gis</abbr>&nbsp;
+    <abbr>html</abbr>&nbsp;
+    <abbr>javascript</abbr>&nbsp;
+    <abbr>kanban</abbr>&nbsp;
+    <abbr>mapserver</abbr>&nbsp;
+    <abbr>php</abbr>&nbsp;
+    <abbr>svn</abbr>&nbsp;
+    <abbr>xml</abbr>&nbsp;
+    
+
+                    </p>
+                </div>
+            <br>
+        </div>
+    </a>
+
+</div>
+
+
+
+
+<script>
+    /**
+     * Search parses the DOM, keeping only matching <li> nodes
+     * and highlighting search terms.
+     */
+    $(window).ready(function(){
+        var form = $('#search');
+        var field = form.find('input').focus();
+        var projects = $('#projects');
+        var all = $('#projects').clone(true, true);
+        // search handler
+        form.on('submit keyup', function(e) {
+            e.preventDefault();
+            var query = field.val().trim();
+            location.hash = '#'+query;
+            var terms = query.split(' ');
+            // filter
+            /*
+            projects.html(all.children().clone().filter(function(i,el) {
+                return $.map(terms, function(term) {
+                    return $(el).html().toLowerCase().includes(term.toLowerCase());
+                }).some(function(found) {
+                    return found
+                });
+            }));
+            */
+            // highlight keywords
+            if (query) $.each(terms, function(i,term) {
+                $.each(projects.find(':not(:has(*))'), function(i,leaf) {
+                    var leaf = $(leaf);
+                    leaf.html(leaf.html().replace(
+                        //new RegExp('('+term+')', 'gi'),
+                        new RegExp('(?!<a[^>]*?>)('+term+')(?![^<]*?</a>)', 'gi'),
+                        $('<span>', {
+                            html: "$1",
+                            style: 'font-weight:bold; color:lightgreen',
+                        })[0].outerHTML
+                    ));
+                });
+            });
+            // no result message
+            if (!projects.children().length) projects.html([
+                $('<h4>', {html: [
+                    'No project matching terms: ',
+                    $('<i>', {html: terms.join(', ')})
+                ]}),
+                $('<a>', {
+                    html: [$('<i>', {class: 'fa fa-remove'}), ' Clear search'],
+                    href: '#',
+                    class: 'small',
+                    click: function() {
+                        field.val(null).trigger('submit').focus()
+                    }
+                })
+            ]);
+        });
+        // apply search hash
+        $(window).on('hashchange', function() {
+            var h = location.hash.substr(1);
+            if (!field.val() != h) field.val(h);
+            form.trigger('submit');
+        }).trigger('hashchange');
+    })
+</script>
+
+
+    <footer class="small text-muted text-right">
+        <hr>
+        <p>&copy; 2019</p>
+    </footer>
+
+</div> <!-- /container -->
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="/static/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+<script>
+    /**
+     * Replaces all <img src="*.svg"> with <svg> containing src contents.
+     * https://stackoverflow.com/a/35126817/1300775
+     */
+    $(document).ready(function() {
+        $('img[src$=".svg"]').each(function() {
+            var $img = jQuery(this);
+            var imgURL = $img.attr('src');
+            var attributes = $img.prop("attributes");
+
+            $.get(imgURL, function(data) {
+                // Get the SVG tag, ignore the rest
+                var $svg = jQuery(data).find('svg');
+
+                // Remove any invalid XML tags
+                $svg = $svg.removeAttr('xmlns:a');
+
+                // Loop through IMG attributes and apply on SVG
+                $.each(attributes, function() {
+                    $svg.attr(this.name, this.value);
+                });
+
+                // Replace IMG with SVG
+                $img.replaceWith($svg);
+            }, 'xml');
+        });
+    });
+</script>
+
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-9530903-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-9530903-1');
+</script>
+
+    </body>
+</html>
