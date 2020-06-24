@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Project: System strategy, administration and migration</title>
+
+        <script src="/static/lib/jquery-3.4.1.min.js"></script>
+
+        <!-- jquery-ui -->
+        <link rel="stylesheet" href="/static/lib/jquery-ui.css">
+        <script src="/static/lib/jquery-ui.js"></script>
+
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="/static/lib/bootstrap.min.css">
+        <script src="/static/lib/bootstrap.min.js"></script>
+
+        <!-- font-awesome -->
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            rel="stylesheet"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+            crossorigin="anonymous">
+        
+        <!-- fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
+
+        <!-- favicon -->
+        <link rel="icon" type="image/png" href="/favicon.png">
+
+        <!-- local css -->
+        <link rel="stylesheet" href="/static/assets/css/base.css">
+
+        
+
+        
+    </head>
+
+    <body>
+        
+<div class="container">
+    <div class="header _clearfix">
+        
+        <h3 class="text-muted">
+            
+            <a href="/">
+                <img class="icon-logo icon-spin"
+                     style="height:1em; vertical-align:top; -webkit-filter: saturate(60%);"
+                     src="/static/assets/img/flower.svg">
+            </a>
+            
+            Project: System strategy, administration and migration
+        </h3>
+        <hr>
+    </div>
+
+    
+<style>
+    .text {
+        position: absolute;
+        top: 100px;
+        padding: 25px;
+    }
+    .text > * {
+        color: white;
+        padding: 5px;
+        display: table;
+        background: rgba(0, 0, 0, 0.66);
+    }
+    .text h1 {
+        font-weight: bold;
+    }
+</style>
+
+<small>
+    <a href="/about/projects/">
+        <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+        All Projects
+    </a>
+    <div class="pull-right">
+      
+      <a class="pull-right btn btn-default btn-xs" href="https://www.crazyschool.fr" target="_blank">
+          <i class="fa fa-external-link-square" aria-hidden="true"></i>
+          &nbsp;
+          Open project link
+      </a>
+      
+      
+    </div>
+    <br><br>
+</small>
+
+<div>
+    
+
+    <div class="text"
+    
+         style="position:inherit"
+    
+    >
+        <h1>System strategy, administration and migration</h1>
+
+        <p>
+           <strong>
+               
+               2019,
+               6 months
+           </strong>
+        </p>
+
+        <p>
+            Management of academic server infrastructure, technical strategy and migration
+        </p>
+
+        <br>
+
+        <p class="small">
+            
+    <a href="https://fr.wikipedia.org/wiki/Bourne-Again_shell"
+               style="text-decoration:none;border-bottom: 1px dotted lightgray;color:inherit"
+               target="_blank">bash</a>&nbsp;
+    <a href="https://www.debian.org/intro/about.en.html"
+               style="text-decoration:none;border-bottom: 1px dotted lightgray;color:inherit"
+               target="_blank">debian</a>&nbsp;
+    <abbr>fedora</abbr>&nbsp;
+    <abbr>firewall</abbr>&nbsp;
+    <a href="https://git-scm.com/"
+               style="text-decoration:none;border-bottom: 1px dotted lightgray;color:inherit"
+               target="_blank">git</a>&nbsp;
+    <abbr>iiif</abbr>&nbsp;
+    <a href="https://en.wikipedia.org/wiki/Java_(programming_language)"
+               style="text-decoration:none;border-bottom: 1px dotted lightgray;color:inherit"
+               target="_blank">java</a>&nbsp;
+    <a href="https://en.wikipedia.org/wiki/Kanban"
+               style="text-decoration:none;border-bottom: 1px dotted lightgray;color:inherit"
+               target="_blank">kanban</a>&nbsp;
+    <abbr>monitoring</abbr>&nbsp;
+    <a href="https://www.mysql.com/"
+               style="text-decoration:none;border-bottom: 1px dotted lightgray;color:inherit"
+               target="_blank">mysql</a>&nbsp;
+    <abbr>networking</abbr>&nbsp;
+    <abbr>open-jdk</abbr>&nbsp;
+    <abbr>reverse-engineering</abbr>&nbsp;
+    <abbr>spring</abbr>&nbsp;
+    <abbr>testing</abbr>&nbsp;
+    <abbr>tomcat</abbr>&nbsp;
+    
+
+        </p>
+    </div>
+</div>
+
+
+    <footer class="small text-muted text-right">
+        <hr>
+        <p>&copy; 2020</p>
+    </footer>
+
+</div> <!-- /container -->
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="/static/lib/ie10-viewport-bug-workaround.js"></script>
+
+<script>
+    /**
+     * Replaces all <img src="*.svg"> with <svg> containing src contents.
+     * https://stackoverflow.com/a/35126817/1300775
+     */
+    $(document).ready(function() {
+        $('img[src$=".svg"]').each(function() {
+            var $img = jQuery(this);
+            var imgURL = $img.attr('src');
+            var attributes = $img.prop("attributes");
+
+            $.get(imgURL, function(data) {
+                // Get the SVG tag, ignore the rest
+                var $svg = jQuery(data).find('svg');
+
+                // Remove any invalid XML tags
+                $svg = $svg.removeAttr('xmlns:a');
+
+                // Loop through IMG attributes and apply on SVG
+                $.each(attributes, function() {
+                    $svg.attr(this.name, this.value);
+                });
+
+                // Replace IMG with SVG
+                $img.replaceWith($svg);
+            }, 'xml');
+        });
+    });
+</script>
+
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-9530903-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-9530903-1');
+</script>
+
+    </body>
+</html>
