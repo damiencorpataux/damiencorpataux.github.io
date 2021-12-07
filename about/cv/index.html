@@ -86,6 +86,12 @@
      * from https://gist.github.com/donnierayjones/6fd9802d992b2d8d6cfd
      */
     @media print {
+/* 
+      .text-muted {
+        color: #6c757d !important;
+        font-weight: lighter;
+      }
+ */
       .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12,
       .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
         float: left;
@@ -142,91 +148,55 @@
 </style>
 
 <div class="row">
-    <div class="col-sm-3">
-        
-        <img class="thumbnail visible-sm visible-md visible-lg"
-             style="border-radius:50%;
-                    width:100%;
-                    margin:0;"
-             src="/about/cv/static/me.jpg" alt="Damien Corpataux" id="pic" />
-        
-        <img class="thumbnail visible-xs"
-             style="border-radius:50%;
-                    width:200px;
-                    margin:0;"
-             src="/about/cv/static/me.jpg" alt="Damien Corpataux" id="pic" />
-        
-    </div>
-    <div class="col-sm-7">
+    <div class="col-xs-10">
         <div id="contact-info" class="vcard small">
             <!-- Microformats -->
             <h1 class="fn" style="font-size:70px;
                    font-family:'Tangerine',cursive;
                    font-weight:700">Damien Corpataux</h1>
             <p>
-                <i class="fa fa-phone text-muted" aria-hidden="true"></i>
+                <i class="fa fa-map-marker text-muted fa-fw" aria-hidden="true"></i>
+                Aubépines 43, 1004 Lausanne
+                <br />
+                <i class="fa fa-phone text-muted fa-fw" aria-hidden="true"></i>
                 <a class="tel" href="tel:+41 79 321 3201">+41 79 321 3201</a>
                 <br />
-                <i class="fa fa-at text-muted" aria-hidden="true"></i>
+                <i class="fa fa-at text-muted fa-fw" aria-hidden="true"></i>
                 <a class="email" href="mailto:d@mien.ch">d@mien.ch</a>
-                <br />
-                <i class="fa fa-heartbeat text-muted" aria-hidden="true"></i>
-                41 y.o.
+                
             </p>
         </div>
         <div id="objective">
-            <ul class="list-unstyled">
+            
+            <ul class="list-unstyled text-muted small">
+                
                 <li>
-                    Developer, humanist, artist.
-                    Exploring, learning, delivering.
-                    
-                </li>
-                <li>
-                    Open source, engineering, management, development, lifecycle, integration.
-                </li>
-            </ul>
-            <ul class="list-unstyled visible-print hidden-lg hidden-md hidden-sm hidden-xs">
-            </ul>
-            <ul class="list-unstyled visible-print hidden-lg hidden-md hidden-sm hidden-xs">
-                <li>
-                    <i class="fa fa-plug" aria-hidden="true"></i>
+                    <i class="fa fa-plug fa-fw" aria-hidden="true"></i>
                     Online CV:
-                    mien.ch/about/cv/
+                    <a href="https://www.mien.ch/about/cv/" target="_blank">https://www.mien.ch/about/cv/</a>
                 </li>
+                
                 <li>
-                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin-square fa-fw" aria-hidden="true"></i>
                     Linkedin:
-                    linkedin.com/in/damiencorpataux/
+                    <a href="https://www.github.com/damiencorpataux" target="_blank">https://www.github.com/damiencorpataux</a>
                 </li>
+                
                 <li>
-                    <i class="fa fa-github" aria-hidden="true"></i>
+                    <i class="fa fa-github fa-fw" aria-hidden="true"></i>
                     Github:
-                    github.com/damiencorpataux
+                    <a href="https://www.linkedin.com/in/damiencorpataux/http" target="_blank">https://www.linkedin.com/in/damiencorpataux/http</a>
                 </li>
+                
             </ul>
         </div>
     </div>
-    <div class="col-sm-2 hidden-print">
-        <ul class="list-unstyled text-right" style="line-height:35px;filter:opacity(0.5)">
-            <li>
-                <a href="https://ch.linkedin.com/in/damiencorpataux">
-                    Linkedin
-                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/damiencorpataux">
-                    Github
-                    <i class="fa fa-github" aria-hidden="true"></i>
-                </a>
-            </li>
-            <li>
-                <a href="/about/projects/">
-                    Projects
-                    <i class="fa fa-cubes" aria-hidden="true"></i>
-                </a>
-            </li>
-        </ul>
+    <div class="col-xs-2">
+        <img class="thumbnail"
+             style="border-radius:50%;
+                    width:100%;
+                    margin:0;"
+             src="/about/cv/static/me.jpg" alt="Damien Corpataux" id="pic" />
     </div>
 </div>
 
@@ -234,7 +204,7 @@
 
 <dl class="detail">
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-6">
             <dt class="h2">
                 <i class="fa fa-suitcase" aria-hidden="true"></i>
                 Experience
@@ -242,19 +212,12 @@
             
             <dd style="page-break-inside:avoid">
                 <h4>
-                    <div class="text-muted nowrap">
-                        2020 &dash; now
-                    </div>
-                    <span>
-                        UNIL,
-                    </span>
-                    <span>
-                        Lausanne
-                    </span>
+                    UNIL,
+                    <span class="text-muted">2020 &dash; 2022</span>
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <strong>Project manager</strong>
+                        <strong>Project manager</strong>, Lausanne
                     </p>
                     
                     <p>
@@ -266,19 +229,12 @@
             
             <dd style="page-break-inside:avoid">
                 <h4>
-                    <div class="text-muted nowrap">
-                        2019 &dash; 2020
-                    </div>
-                    <span>
-                        UNIGE,
-                    </span>
-                    <span>
-                        Geneva
-                    </span>
+                    UNIGE,
+                    <span class="text-muted">2019 &dash; 2020</span>
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <strong>Analyst-programmer</strong>
+                        <strong>Analyst-programmer</strong>, Geneva
                     </p>
                     
                     <p>
@@ -290,23 +246,16 @@
             
             <dd style="page-break-inside:avoid">
                 <h4>
-                    <div class="text-muted nowrap">
-                        2018 &dash; 2019
-                    </div>
-                    <span>
-                        Individual (synesys.ch),
-                    </span>
-                    <span>
-                        Asia
-                    </span>
+                    Synesys,
+                    <span class="text-muted">2018 &dash; 2020</span>
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <strong>IT Solution provider</strong>
+                        <strong>Solutions development &amp; integration</strong>, Europe &amp; Asia
                     </p>
                     
                     <p>
-                        System engineering, data processing, automation, prototyping and integration
+                        Digital nomad in specilized information systems, software automation and integration
                     </p>
                     
                 </div>
@@ -314,43 +263,12 @@
             
             <dd style="page-break-inside:avoid">
                 <h4>
-                    <div class="text-muted nowrap">
-                        2018 &dash; now
-                    </div>
-                    <span>
-                        Individual (synesys.ch),
-                    </span>
-                    <span>
-                        Pully
-                    </span>
+                    Citycable,
+                    <span class="text-muted">2014 &dash; 2018</span>
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <strong>Solutions development &amp; integration</strong>
-                    </p>
-                    
-                    <p>
-                        Specilized information systems, software automation and integration
-                    </p>
-                    
-                </div>
-            </dd>
-            
-            <dd style="page-break-inside:avoid">
-                <h4>
-                    <div class="text-muted nowrap">
-                        2014 &dash; 2018
-                    </div>
-                    <span>
-                        Citycable,
-                    </span>
-                    <span>
-                        Lausanne
-                    </span>
-                </h4>
-                <div class="text-muted">
-                    <p>
-                        <strong>Software &amp; Telecom specialist</strong>
+                        <strong>Software &amp; Telecom specialist</strong>, Lausanne
                     </p>
                     
                     <p>
@@ -362,19 +280,12 @@
             
             <dd style="page-break-inside:avoid">
                 <h4>
-                    <div class="text-muted nowrap">
-                        2012 &dash; 2013
-                    </div>
-                    <span>
-                        CHUV,
-                    </span>
-                    <span>
-                        Lausanne
-                    </span>
+                    CHUV,
+                    <span class="text-muted">2012 &dash; 2013</span>
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <strong>Software Project Manager</strong>
+                        <strong>Software Project Manager</strong>, Lausanne
                     </p>
                     
                     <p>
@@ -386,19 +297,12 @@
             
             <dd style="page-break-inside:avoid">
                 <h4>
-                    <div class="text-muted nowrap">
-                        2011 &dash; 2012
-                    </div>
-                    <span>
-                        UNIL,
-                    </span>
-                    <span>
-                        Lausanne
-                    </span>
+                    UNIL,
+                    <span class="text-muted">2011 &dash; 2012</span>
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <strong>Software Architect &amp; Developer</strong>
+                        <strong>Software Architect &amp; Developer</strong>, Lausanne
                     </p>
                     
                     <p>
@@ -410,19 +314,12 @@
             
             <dd style="page-break-inside:avoid">
                 <h4>
-                    <div class="text-muted nowrap">
-                        2009 &dash; 2011
-                    </div>
-                    <span>
-                        Digicall,
-                    </span>
-                    <span>
-                        Lausanne
-                    </span>
+                    Digicall,
+                    <span class="text-muted">2009 &dash; 2011</span>
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <strong>Software Manager</strong>
+                        <strong>Software Manager</strong>, Denges
                     </p>
                     
                     <p>
@@ -434,19 +331,12 @@
             
             <dd style="page-break-inside:avoid">
                 <h4>
-                    <div class="text-muted nowrap">
-                        2006 &dash; 2009
-                    </div>
-                    <span>
-                        HEIG-VD,
-                    </span>
-                    <span>
-                        Lausanne
-                    </span>
+                    HEIG-VD,
+                    <span class="text-muted">2006 &dash; 2009</span>
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <strong>Ra&amp;D engineer and course assistant</strong>
+                        <strong>Ra&amp;D engineer and course assistant</strong>, Lausanne
                     </p>
                     
                     <p>
@@ -458,19 +348,12 @@
             
             <dd style="page-break-inside:avoid">
                 <h4>
-                    <div class="text-muted nowrap">
-                        2005 &dash; 2009
-                    </div>
-                    <span>
-                        Camptocamp,
-                    </span>
-                    <span>
-                        Lausanne
-                    </span>
+                    Camptocamp,
+                    <span class="text-muted">2005 &dash; 2009</span>
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <strong>Software Architect &amp; Developer</strong>
+                        <strong>Software Architect &amp; Developer</strong>, Lausanne
                     </p>
                     
                     <p>
@@ -482,19 +365,12 @@
             
             <dd style="page-break-inside:avoid">
                 <h4>
-                    <div class="text-muted nowrap">
-                        1996 &dash; 2000
-                    </div>
-                    <span>
-                        Swisscom,
-                    </span>
-                    <span>
-                        Lausanne
-                    </span>
+                    Swisscom,
+                    <span class="text-muted">1996 &dash; 2000</span>
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <strong>IT Apprentice</strong>
+                        <strong>IT Apprentice</strong>, Lausanne
                     </p>
                     
                 </div>
@@ -502,7 +378,7 @@
             
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-6">
             <dt class="h2">
                 <i class="fa fa-university" aria-hidden="true"></i>
                 Education
@@ -510,108 +386,39 @@
             
             <dd style="page-break-inside:avoid">
                 <h4>
-                    <div class="text-muted">
-                        2003 &dash; 2005
-                    </div>
-                    <span>
                     HEIG-VD,
-                    </span>
-                    <span>
-                    Comem,
-                    </span>
-                    <span>
-                    Lausanne
-                    </span>
+                    <span class="text-muted">Comem, 2003 &dash; 2005</span>
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <span>
-                            <strong>University of applied sciences,</strong>
-                        </span>
-                        <span>
-                            <strong>Comem</strong>
-                        </span>
+                        <strong>University of applied sciences, Comem</strong>, Lausanne
                     </p>
-                    <p>
+                    <p class="text-success">
                         
                         Diploma obtained
                         
                     </p>
                     
-                    <p>
-		        With honors<br>IT Processing prize
-                    </p>
-                    
                 </div>
             </dd>
             
             <dd style="page-break-inside:avoid">
                 <h4>
-                    <div class="text-muted">
-                        2001 &dash; 2003
-                    </div>
-                    <span>
-                    HEIG-VD,
-                    </span>
-                    <span>
-                    Telecom,
-                    </span>
-                    <span>
-                    Yverdon
-                    </span>
-                </h4>
-                <div class="text-muted">
-                    <p>
-                        <span>
-                            <strong>University of applied sciences,</strong>
-                        </span>
-                        <span>
-                            <strong>Telecom</strong>
-                        </span>
-                    </p>
-                    <p>
-                        
-                    </p>
-                    
-                    <p>
-		        Propaedeutic examination successful<br>Switched to Comem division
-                    </p>
-                    
-                </div>
-            </dd>
-            
-            <dd style="page-break-inside:avoid">
-                <h4>
-                    <div class="text-muted">
-                        2003 &dash; 2003
-                    </div>
-                    <span>
                     Studio School,
-                    </span>
-                    <span>
-                    ZMP Class,
-                    </span>
-                    <span>
-                    Freiburg-im-Breisgau
-                    </span>
+                    <span class="text-muted">ZMP Class, 2003 &dash; 2003</span>
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <span>
-                            <strong>Language school,</strong>
-                        </span>
-                        <span>
-                            <strong>ZMP Class</strong>
-                        </span>
+                        <strong>Language school, ZMP Class</strong>, Freiburg-im-Breisgau
                     </p>
-                    <p>
+                    <p class="text-success">
                         
                         Diploma obtained
                         
                     </p>
                     
                     <p>
-		        Goethe C1 Zentrale Mittelstufenprüfung (ZMP)
+                        Goethe C1 Zentrale Mittelstufenprüfung (ZMP)
                     </p>
                     
                 </div>
@@ -619,29 +426,34 @@
             
             <dd style="page-break-inside:avoid">
                 <h4>
-                    <div class="text-muted">
-                        2001 &dash; 2000
-                    </div>
-                    <span>
+                    HEIG-VD,
+                    <span class="text-muted">Telecom, 2001 &dash; 2003</span>
+                </h4>
+                <div class="text-muted">
+                    <p>
+                        <strong>University of applied sciences, Telecom</strong>, Yverdon
+                    </p>
+                    <p class="text-success">
+                        
+                    </p>
+                    
+                    <p>
+                        Propaedeutic examination successful<br>Switched to Comem division
+                    </p>
+                    
+                </div>
+            </dd>
+            
+            <dd style="page-break-inside:avoid">
+                <h4>
                     Eracom,
-                    </span>
-                    <span>
-                    Maturité professionnelle technique,
-                    </span>
-                    <span>
-                    Lausanne
-                    </span>
+                    <span class="text-muted">Maturité professionnelle technique, 2001 &dash; 2000</span>
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <span>
-                            <strong>Gateway courses,</strong>
-                        </span>
-                        <span>
-                            <strong>Maturité professionnelle technique</strong>
-                        </span>
+                        <strong>Gateway courses, Maturité professionnelle technique</strong>, Lausanne
                     </p>
-                    <p>
+                    <p class="text-success">
                         
                         Diploma obtained
                         
@@ -652,36 +464,21 @@
             
             <dd style="page-break-inside:avoid">
                 <h4>
-                    <div class="text-muted">
-                        1996 &dash; 1996
-                    </div>
-                    <span>
                     Newnham Language School,
-                    </span>
-                    <span>
-                    FCE class,
-                    </span>
-                    <span>
-                    Cambridge, UK
-                    </span>
+                    <span class="text-muted">FCE class, 1996 &dash; 1996</span>
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <span>
-                            <strong>Language school,</strong>
-                        </span>
-                        <span>
-                            <strong>FCE class</strong>
-                        </span>
+                        <strong>Language school, FCE class</strong>, Cambridge, UK
                     </p>
-                    <p>
+                    <p class="text-success">
                         
                         Diploma obtained
                         
                     </p>
                     
                     <p>
-		        First Certificate of English (FCE)
+                        First Certificate of English (FCE)
                     </p>
                     
                 </div>
@@ -689,29 +486,14 @@
             
             <dd style="page-break-inside:avoid">
                 <h4>
-                    <div class="text-muted">
-                        2000 &dash; 1996
-                    </div>
-                    <span>
                     Swisscom,
-                    </span>
-                    <span>
-                    IT Service West,
-                    </span>
-                    <span>
-                    Lausanne
-                    </span>
+                    <span class="text-muted">IT Service West, 2000 &dash; 1996</span>
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <span>
-                            <strong>Apprenticeship,</strong>
-                        </span>
-                        <span>
-                            <strong>IT Service West</strong>
-                        </span>
+                        <strong>Apprenticeship, IT Service West</strong>, Lausanne
                     </p>
-                    <p>
+                    <p class="text-success">
                         
                         Diploma obtained
                         
@@ -722,29 +504,14 @@
             
             <dd style="page-break-inside:avoid">
                 <h4>
-                    <div class="text-muted">
-                        1985 &dash; 1995
-                    </div>
-                    <span>
                     Secondary school,
-                    </span>
-                    <span>
-                    Technical division,
-                    </span>
-                    <span>
-                    Bussigny
-                    </span>
+                    <span class="text-muted">Technical division, 1985 &dash; 1995</span>
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <span>
-                            <strong>School,</strong>
-                        </span>
-                        <span>
-                            <strong>Technical division</strong>
-                        </span>
+                        <strong>School, Technical division</strong>, Bussigny
                     </p>
-                    <p>
+                    <p class="text-success">
                         
                         Diploma obtained
                         
@@ -754,8 +521,11 @@
             </dd>
             
         </div>
+    </div>
 
-        <div class="col-md-4">
+    <hr class="visible-md visible-lg">
+    <div class="row">
+        <div class="col-md-6">
             <dt class="h2">
                 <i class="fa fa-graduation-cap" aria-hidden="true"></i>
                 Certifications
@@ -763,127 +533,83 @@
             
             <dd style="page-break-inside:avoid">
                 <h4>
-                    <div class="text-muted nowrap">
-                        2006
-                    </div>
-                    <span>
-                        Engineer degree (Bachelor +)
-                    </span>
+                    Bachelor of Engineering (BSC),
+                    <span class="text-muted">2006</span>
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <span>
-                            <strong>HEIG-VD,</strong>
-                        </span>
-                        <span>
-                            <strong>Lausanne</strong>
-                        </span>
+                        <strong>HEIG-VD</strong>, Lausanne
                     </p>
                     <p>
-		        With honors<br>IT Processing prize
+                        With honors<br>IT Processing prize
                     </p>
                 </div>
             </dd>
             
             <dd style="page-break-inside:avoid">
                 <h4>
-                    <div class="text-muted nowrap">
-                        2003
-                    </div>
-                    <span>
-                        Goethe Zentrale Mittelstufenprüfung
-                    </span>
+                    Goethe Zentrale Mittelstufenprüfung,
+                    <span class="text-muted">2003</span>
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <span>
-                            <strong>UNIL,</strong>
-                        </span>
-                        <span>
-                            <strong>Lausanne</strong>
-                        </span>
+                        <strong>UNIL</strong>, Lausanne
                     </p>
                     <p>
-		        
+                        
                     </p>
                 </div>
             </dd>
             
             <dd style="page-break-inside:avoid">
                 <h4>
-                    <div class="text-muted nowrap">
-                        2001
-                    </div>
-                    <span>
-                        Cambridge First Certificate
-                    </span>
+                    Cambridge First Certificate,
+                    <span class="text-muted">2001</span>
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <span>
-                            <strong>HEIG-VD,</strong>
-                        </span>
-                        <span>
-                            <strong>Yverdon</strong>
-                        </span>
+                        <strong>HEIG-VD</strong>, Yverdon
                     </p>
                     <p>
-		        
+                        
                     </p>
                 </div>
             </dd>
             
             <dd style="page-break-inside:avoid">
                 <h4>
-                    <div class="text-muted nowrap">
-                        2000
-                    </div>
-                    <span>
-                        Federal Certificate of Capacity
-                    </span>
+                    Federal Certificate of Capacity,
+                    <span class="text-muted">2000</span>
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <span>
-                            <strong>Swisscom,</strong>
-                        </span>
-                        <span>
-                            <strong>Lausanne</strong>
-                        </span>
+                        <strong>Swisscom</strong>, Lausanne
                     </p>
                     <p>
-		        
+                        
                     </p>
                 </div>
             </dd>
             
             <dd style="page-break-inside:avoid">
                 <h4>
-                    <div class="text-muted nowrap">
-                        1995
-                    </div>
-                    <span>
-                        Secondary School Certificate
-                    </span>
+                    Secondary School Certificate,
+                    <span class="text-muted">1995</span>
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <span>
-                            <strong>Commune,</strong>
-                        </span>
-                        <span>
-                            <strong>Bussigny</strong>
-                        </span>
+                        <strong>Commune</strong>, Bussigny
                     </p>
                     <p>
-		        
+                        
                     </p>
                 </div>
             </dd>
             
             <br>
-            <hr class="visible-md visible-lg">
-            <dt class="h2" style="page-break-before:always">
+        </div>
+        <div class="col-md-6">
+            <dt class="h2">
                 <i class="fa fa-comments-o" aria-hidden="true"></i>
                 Languages
             </dt>
@@ -939,7 +665,6 @@
             </dd>
             
             <br>
-            <hr class="visible-md visible-lg">
             <dt class="h2">
                 <i class="fa fa-quote-left" aria-hidden="true"></i>
                 References
@@ -1234,12 +959,12 @@
     
     </div>
         
-        <p class="hidden-print small">
+        <p class="hidden-print small text-muted">
             <i class="fa fa-info-circle" aria-hidden="true"></i>
             Technologies are generated from the accomplished projects data.
         </p>
     <hr class="visible-md visible-lg">
-    <dt class="h2">
+    <dt class="h2" style="page-break-before:always">
         <i class="fa fa-bookmark" aria-hidden="true"></i>
         Projects
     </dt>
@@ -1251,648 +976,444 @@
     </a>
 
 
-    <div class="row small">
+    <div class="small">
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   UNIL, 2021
-               </strong>
-           </p>
-           <h4>
-               
-               Management of application migration
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               Ensuring the smooth migration of an application for meeting activities support
-           </p>
+        <dd>
+            <h4>
+                Management of application migration,
+                <span class="text-muted">2021</span>
+            </h4>
+            <p class="text-muted">
+                Migration of an application for meeting activities support
+            </p>
        </dd>
 
 
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   UNIL, 2021
-               </strong>
-           </p>
-           <h4>
-               
-               Archiving solution and search engine
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               Automated archiving solution for structured, secure and long-term storage of data from heterogeneous data sources
-           </p>
+        <dd>
+            <h4>
+                Archiving solution and search engine,
+                <span class="text-muted">2021</span>
+            </h4>
+            <p class="text-muted">
+                Automated archiving solution for structured, secure and long-term storage of data from heterogeneous data sources
+            </p>
        </dd>
 
 
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   UNIGE, 2020
-               </strong>
-           </p>
-           <h4>
-               
-               Headless CMS for collaborative content
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               Collaborative editing and publishing tool for French literature teaching material
-           </p>
+        <dd>
+            <h4>
+                Headless CMS for collaborative content,
+                <span class="text-muted">2020</span>
+            </h4>
+            <p class="text-muted">
+                Collaborative editing and publishing tool for French literature teaching material
+            </p>
        </dd>
 
 
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   UNIGE, 2019
-               </strong>
-           </p>
-           <h4>
-               
-               Outsourcing technical management
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               Technical management for outsourcing of software components
-           </p>
+        <dd>
+            <h4>
+                Outsourcing technical management,
+                <span class="text-muted">2019</span>
+            </h4>
+            <p class="text-muted">
+                Technical management for outsourcing of software components
+            </p>
        </dd>
 
     </div>
 
 
 
-    <div class="row small">
+    <div class="small">
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   UNIGE, 2019
-               </strong>
-           </p>
-           <h4>
-               
-               System strategy, administration and migration
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               Management of academic server infrastructure, technical strategy and migration
-           </p>
+        <dd>
+            <h4>
+                System strategy, administration and migration,
+                <span class="text-muted">2019</span>
+            </h4>
+            <p class="text-muted">
+                Management of academic server infrastructure, technical strategy and migration
+            </p>
        </dd>
 
 
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   Individual, 2019
-               </strong>
-           </p>
-           <h4>
-               
-               Real-time IoT gaming system
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               Consulting, system architecture, technical team coordination and development of the specialized gaming system CrazySchool
-           </p>
+        <dd>
+            <h4>
+                Real-time IoT gaming system,
+                <span class="text-muted">2019</span>
+            </h4>
+            <p class="text-muted">
+                Consulting, system architecture, technical team coordination and development of the specialized gaming system CrazySchool
+            </p>
        </dd>
 
 
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   Individual, 2019
-               </strong>
-           </p>
-           <h4>
-               
-               Crypto-trading strategy backtesting
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               Cryptocurrency trading algorithm backtesting
-           </p>
+        <dd>
+            <h4>
+                Crypto-trading strategy backtesting,
+                <span class="text-muted">2019</span>
+            </h4>
+            <p class="text-muted">
+                Cryptocurrency trading algorithm backtesting
+            </p>
        </dd>
 
 
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   Individual, 2019
-               </strong>
-           </p>
-           <h4>
-               
-               NLP processor to kumu.io visualization
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               Glossary coherence/issue analyzer for the decentralized identity (DID) white papers
-           </p>
+        <dd>
+            <h4>
+                NLP processor to kumu.io visualization,
+                <span class="text-muted">2019</span>
+            </h4>
+            <p class="text-muted">
+                Glossary coherence/issue analyzer for the decentralized identity (DID) white papers
+            </p>
        </dd>
 
     </div>
 
 
 
-    <div class="row small">
+    <div class="small">
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   Digital nomad, 2018
-               </strong>
-           </p>
-           <h4>
-               
-               iRODS based storage with policy automation
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               Using iRODS to automate storage of privacy-sensitive content with quarantine policy
-           </p>
+        <dd>
+            <h4>
+                iRODS based storage with policy automation,
+                <span class="text-muted">2018</span>
+            </h4>
+            <p class="text-muted">
+                Using iRODS to automate storage of privacy-sensitive content with quarantine policy
+            </p>
        </dd>
 
 
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   Citycable, 2018
-               </strong>
-           </p>
-           <h4>
-               
-               Anti-DDOS system using OpenBSD and Packetfilter
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               
-           </p>
+        <dd>
+            <h4>
+                Anti-DDOS system using OpenBSD and Packetfilter,
+                <span class="text-muted">2018</span>
+            </h4>
+            <p class="text-muted">
+                
+            </p>
        </dd>
 
 
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   Citycable, 2017
-               </strong>
-           </p>
-           <h4>
-               
-               PSU Monitoring
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               Using a Raspberry Pi GPIO to monitor a PSU from CASA Systems
-           </p>
+        <dd>
+            <h4>
+                PSU Monitoring,
+                <span class="text-muted">2017</span>
+            </h4>
+            <p class="text-muted">
+                Using a Raspberry Pi GPIO to monitor a PSU from CASA Systems
+            </p>
        </dd>
 
 
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   Citycable, 2016
-               </strong>
-           </p>
-           <h4>
-               
-               SAP CRM, OpenAM and LDAP integration
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               Integration of authentication and interactions between SAP CRM and corporate LDAP/OpenAM for automating Customer Care processes
-           </p>
+        <dd>
+            <h4>
+                SAP CRM, OpenAM and LDAP integration,
+                <span class="text-muted">2016</span>
+            </h4>
+            <p class="text-muted">
+                Integration of authentication and interactions between SAP CRM and corporate LDAP/OpenAM for automating Customer Care processes
+            </p>
        </dd>
 
     </div>
 
 
 
-    <div class="row small">
+    <div class="small">
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   Citycable, 2016
-               </strong>
-           </p>
-           <h4>
-               
-               PWM API
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               API for interacting between the access network devices and the organisation&#39;s Process Workflow Management tool
-           </p>
+        <dd>
+            <h4>
+                PWM API,
+                <span class="text-muted">2016</span>
+            </h4>
+            <p class="text-muted">
+                API for interacting between the access network devices and the organisation&#39;s Process Workflow Management tool
+            </p>
        </dd>
 
 
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   Citycable, 2016
-               </strong>
-           </p>
-           <h4>
-               
-               Citycable Selfcare API
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               Customer Selfcare API acting as a functional and security facade for an outsourced Selfcare Web-GUI
-           </p>
+        <dd>
+            <h4>
+                Citycable Selfcare API,
+                <span class="text-muted">2016</span>
+            </h4>
+            <p class="text-muted">
+                Customer Selfcare API acting as a functional and security facade for an outsourced Selfcare Web-GUI
+            </p>
        </dd>
 
 
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   Citycable, 2015
-               </strong>
-           </p>
-           <h4>
-               
-               DOCSIS Topology Tool
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               REST representation of the DOCSIS topology (including discovery, presentation, interrogation)
-           </p>
+        <dd>
+            <h4>
+                DOCSIS Topology Tool,
+                <span class="text-muted">2015</span>
+            </h4>
+            <p class="text-muted">
+                REST representation of the DOCSIS topology (including discovery, presentation, interrogation)
+            </p>
        </dd>
 
 
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   Citycable, 2015
-               </strong>
-           </p>
-           <h4>
-               
-               DOCSIS QOS Map
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               Cable-modems HF signal quality map
-           </p>
+        <dd>
+            <h4>
+                DOCSIS QOS Map,
+                <span class="text-muted">2015</span>
+            </h4>
+            <p class="text-muted">
+                Cable-modems HF signal quality map
+            </p>
        </dd>
 
     </div>
 
 
 
-    <div class="row small">
+    <div class="small">
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   Citycable, 2014
-               </strong>
-           </p>
-           <h4>
-               
-               SAS, Subscriber Activation System
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               Provisioning system for customer service activation management (DOCSIS, FTTH, VoIP)
-           </p>
+        <dd>
+            <h4>
+                SAS, Subscriber Activation System,
+                <span class="text-muted">2014</span>
+            </h4>
+            <p class="text-muted">
+                Provisioning system for customer service activation management (DOCSIS, FTTH, VoIP)
+            </p>
        </dd>
 
 
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   Citycable, 2014
-               </strong>
-           </p>
-           <h4>
-               
-               The Wall, Monitoring Wall Controller
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               Web remote control for the NOC monitoring wall (screen and spinetix projects controller)
-           </p>
+        <dd>
+            <h4>
+                The Wall, Monitoring Wall Controller,
+                <span class="text-muted">2014</span>
+            </h4>
+            <p class="text-muted">
+                Web remote control for the NOC monitoring wall (screen and spinetix projects controller)
+            </p>
        </dd>
 
 
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   Citycable, 2014
-               </strong>
-           </p>
-           <h4>
-               
-               JQuery Plugin: jquery-smokeping-zoom
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               A JQuery plugin for zooming in smokeping (and other) graphs
-           </p>
+        <dd>
+            <h4>
+                JQuery Plugin: jquery-smokeping-zoom,
+                <span class="text-muted">2014</span>
+            </h4>
+            <p class="text-muted">
+                A JQuery plugin for zooming in smokeping (and other) graphs
+            </p>
        </dd>
 
 
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   Citycable, 2014
-               </strong>
-           </p>
-           <h4>
-               
-               System administration
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               Availability, security, virtualisation, maintenance, performance, tuning
-           </p>
+        <dd>
+            <h4>
+                System administration,
+                <span class="text-muted">2014</span>
+            </h4>
+            <p class="text-muted">
+                Availability, security, virtualisation, maintenance, performance, tuning
+            </p>
        </dd>
 
     </div>
 
 
 
-    <div class="row small">
+    <div class="small">
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   CHUV, 2012
-               </strong>
-           </p>
-           <h4>
-               
-               CUS-OFS Reporting tool
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               Capture and reporting tool of human resources effort
-           </p>
+        <dd>
+            <h4>
+                CUS-OFS Reporting tool,
+                <span class="text-muted">2012</span>
+            </h4>
+            <p class="text-muted">
+                Capture and reporting tool of human resources effort
+            </p>
        </dd>
 
 
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   UNIL, 2011
-               </strong>
-           </p>
-           <h4>
-               
-               IAFBM
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               Administrative intranet of the Faculty of Biology and Medicine
-           </p>
+        <dd>
+            <h4>
+                IAFBM,
+                <span class="text-muted">2011</span>
+            </h4>
+            <p class="text-muted">
+                Administrative intranet of the Faculty of Biology and Medicine
+            </p>
        </dd>
 
 
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   Individual, 2010
-               </strong>
-           </p>
-           <h4>
-               
-               TL Mobile Timetable
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               A mobile TL timetable (transports lausannois), before TL Live existed
-           </p>
+        <dd>
+            <h4>
+                TL Mobile Timetable,
+                <span class="text-muted">2010</span>
+            </h4>
+            <p class="text-muted">
+                A mobile TL timetable (transports lausannois), before TL Live existed
+            </p>
        </dd>
 
 
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   Digicall, 2010
-               </strong>
-           </p>
-           <h4>
-               
-               Okikoo mobile app REST API
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               REST API for the outsourced iPhone and Android mobile applications
-           </p>
+        <dd>
+            <h4>
+                Okikoo mobile app REST API,
+                <span class="text-muted">2010</span>
+            </h4>
+            <p class="text-muted">
+                REST API for the outsourced iPhone and Android mobile applications
+            </p>
        </dd>
 
     </div>
 
 
 
-    <div class="row small">
+    <div class="small">
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   Digicall, 2009
-               </strong>
-           </p>
-           <h4>
-               
-               Okikoo directory
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               User-generated content-oriented business and private directory
-           </p>
+        <dd>
+            <h4>
+                Okikoo directory,
+                <span class="text-muted">2009</span>
+            </h4>
+            <p class="text-muted">
+                User-generated content-oriented business and private directory
+            </p>
        </dd>
 
 
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   Camptocamp, 2009
-               </strong>
-           </p>
-           <h4>
-               
-               Swiss Rivers
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               Rivers flood prediction map
-           </p>
+        <dd>
+            <h4>
+                Swiss Rivers,
+                <span class="text-muted">2009</span>
+            </h4>
+            <p class="text-muted">
+                Rivers flood prediction map
+            </p>
        </dd>
 
 
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   Individual, 2009
-               </strong>
-           </p>
-           <h4>
-               
-               PHP XFramework
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               Flask-like microframework in PHP (xfm-php on github)
-           </p>
+        <dd>
+            <h4>
+                PHP XFramework,
+                <span class="text-muted">2009</span>
+            </h4>
+            <p class="text-muted">
+                Flask-like microframework in PHP (xfm-php on github)
+            </p>
        </dd>
 
 
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   Camptocamp, 2008
-               </strong>
-           </p>
-           <h4>
-               
-               Technical Trainer in the field of Geomatic Open Source Technologies
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               Dispensing 1-4 days courses on Open Source Geomatic technologies as a Technical Trainer for Camptocamp
-           </p>
+        <dd>
+            <h4>
+                Technical Trainer in the field of Geomatic Open Source Technologies,
+                <span class="text-muted">2008</span>
+            </h4>
+            <p class="text-muted">
+                Dispensing 1-4 days courses on Open Source Geomatic technologies as a Technical Trainer for Camptocamp
+            </p>
        </dd>
 
     </div>
 
 
 
-    <div class="row small">
+    <div class="small">
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   HEIG-VD, 2006
-               </strong>
-           </p>
-           <h4>
-               
-               Assistant for the Database and Programming courses
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               Create, animate and assess labs with students
-           </p>
+        <dd>
+            <h4>
+                Assistant for the Database and Programming courses,
+                <span class="text-muted">2006</span>
+            </h4>
+            <p class="text-muted">
+                Create, animate and assess labs with students
+            </p>
        </dd>
 
 
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   HEIG-VD, 2006
-               </strong>
-           </p>
-           <h4>
-               
-               Ra&amp;D at Geo-IICT institute
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               Research, implementation, conferences
-           </p>
+        <dd>
+            <h4>
+                Ra&amp;D at Geo-IICT institute,
+                <span class="text-muted">2006</span>
+            </h4>
+            <p class="text-muted">
+                Research, implementation, conferences
+            </p>
        </dd>
 
 
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   Camptocamp, 2007
-               </strong>
-           </p>
-           <h4>
-               
-               Geostat Plugin for the CartoWeb framework
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               Development of the Geostat Plugin for statistical data thematic mapping
-           </p>
+        <dd>
+            <h4>
+                Geostat Plugin for the CartoWeb framework,
+                <span class="text-muted">2007</span>
+            </h4>
+            <p class="text-muted">
+                Development of the Geostat Plugin for statistical data thematic mapping
+            </p>
        </dd>
 
 
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   Camptocamp, 2007
-               </strong>
-           </p>
-           <h4>
-               
-               Guichet Cartographique Lausanne
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               Geographic map of the city of Lausanne
-           </p>
+        <dd>
+            <h4>
+                Guichet Cartographique Lausanne,
+                <span class="text-muted">2007</span>
+            </h4>
+            <p class="text-muted">
+                Geographic map of the city of Lausanne
+            </p>
        </dd>
 
     </div>
 
 
 
-    <div class="row small">
+    <div class="small">
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   Camptocamp, 2007
-               </strong>
-           </p>
-           <h4>
-               
-               IFREMER Halieutic GIS
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               Highly customizable geostatistical and thematic reporting tool
-           </p>
+        <dd>
+            <h4>
+                IFREMER Halieutic GIS,
+                <span class="text-muted">2007</span>
+            </h4>
+            <p class="text-muted">
+                Highly customizable geostatistical and thematic reporting tool
+            </p>
        </dd>
 
 
 
-       <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
-           <p class="text-muted">
-               <strong>
-                   Camptocamp, 2005
-               </strong>
-           </p>
-           <h4>
-               
-               AJAX implementation in the CartoWeb GIS Framework
-               
-           </h4>
-           <p class="text-muted" style="margin-top:5px">
-               Implement the then new AJAX technology into the client-server-based CartoWeb framework
-           </p>
+        <dd>
+            <h4>
+                AJAX implementation in the CartoWeb GIS Framework,
+                <span class="text-muted">2005</span>
+            </h4>
+            <p class="text-muted">
+                Implement the then new AJAX technology into the client-server-based CartoWeb framework
+            </p>
        </dd>
 
     </div>
@@ -2530,7 +2051,7 @@
             </dd>
             
         </div>
-        <small>
+        <small class="text-muted">
             <i class="fa fa-info-circle" aria-hidden="true"></i>
             The time invested in each skill is computed from the projects duration.
         </small>
@@ -2538,10 +2059,8 @@
 </dl>
 
 
-    <footer class="small text-muted text-right">
-        <hr>
-        <p>&copy; 2021</p>
-    </footer>
+    
+
 
 </div> <!-- /container -->
 
