@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Curriculum Vitae (fr)</title>
+        <title>Curriculum Vitae (en)</title>
 
         <script src="/static/lib/jquery-3.4.1.min.js"></script>
 
@@ -50,7 +50,7 @@
                      src="/static/assets/img/flower.svg">
             </a>
             
-            Curriculum Vitae (fr)
+            Curriculum Vitae (en)
         </h3>
         <hr>
     </div>
@@ -157,7 +157,7 @@
                 Damien Corpataux
             </h1>
             <h2>
-                Ingénieur IT en systèmes d&#39;informations
+                IT Engineer (information systems)
             </h2>
             <p>
                 <i class="fa fa-map-marker text-muted fa-fw" aria-hidden="true"></i>
@@ -178,7 +178,7 @@
                 <li>
                     <i class="fa fa-plug fa-fw" aria-hidden="true"></i>
                     Online CV:
-                    <a href="https://www.mien.ch/about/cv/fr" target="_blank">https://www.mien.ch/about/cv/fr</a>
+                    <a href="https://www.mien.ch/about/cv/en" target="_blank">https://www.mien.ch/about/cv/en</a>
                 </li>
                 
                 <li>
@@ -212,7 +212,7 @@
         <div class="col-md-6">
             <dt class="h2">
                 <i class="fa fa-suitcase" aria-hidden="true"></i>
-                Expérience
+                Experience
             </dt>
             
             <dd style="page-break-inside:avoid">
@@ -222,11 +222,11 @@
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <strong>Gestionnaire de projet</strong>, Lausanne
+                        <strong>Project manager</strong>, Lausanne
                     </p>
                     
                     <p>
-                        Migration d&#39;application et système d&#39;archive à long terme
+                        Managment of application migration and long-term data achiving system
                     </p>
                     
                 </div>
@@ -239,11 +239,11 @@
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <strong>Analyste-programmeur</strong>, Geneva
+                        <strong>Analyst-programmer</strong>, Geneva
                     </p>
                     
                     <p>
-                        Ingénieurie système, gestion de données, automatisation et intégration pour le BodmerLab
+                        System engineering, data management, automation and integration for the BodmerLab
                     </p>
                     
                 </div>
@@ -256,11 +256,11 @@
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <strong>Intégration et développement de solutions</strong>, Europe &amp; Asia
+                        <strong>Solutions development &amp; integration</strong>, Europe &amp; Asia
                     </p>
                     
                     <p>
-                        Digital nomad, systèmes d&#39;informations spécialisés, automatisation et intégration logicielle
+                        Digital nomad, specilized information systems, software automation and integration
                     </p>
                     
                 </div>
@@ -273,11 +273,11 @@
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <strong>Spécialiste système et télécom</strong>, Lausanne
+                        <strong>System &amp; Telecom specialist</strong>, Lausanne
                     </p>
                     
                     <p>
-                        Systèmes de support des opérations, gestion de réseaux et automatisation logicielle
+                        Operation support systems, network management, software automation
                     </p>
                     
                 </div>
@@ -290,11 +290,11 @@
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <strong>Gestionnaire de projets logiciels</strong>, Lausanne
+                        <strong>Software Project Manager</strong>, Lausanne
                     </p>
                     
                     <p>
-                        Développement des systèmes d&#39;information et élaboration du cycle de vie pour la Faculté de biologie et médecine
+                        Information systems development and lifecycle definition for the Faculty of Biology and Medicine
                     </p>
                     
                 </div>
@@ -307,11 +307,11 @@
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <strong>Architecte et développeur logiciel</strong>, Lausanne
+                        <strong>Software Architect &amp; Developer</strong>, Lausanne
                     </p>
                     
                     <p>
-                        Développement des systèmes d&#39;information et élaboration du cycle de vie pour la Faculté de biologie et médecine
+                        Information systems development and lifecycle definition for the Faculty of Biology and Medicine
                     </p>
                     
                 </div>
@@ -324,11 +324,11 @@
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <strong>Gestionnaire logiciel</strong>, Denges
+                        <strong>Software Manager</strong>, Denges
                     </p>
                     
                     <p>
-                        Expert technologique, architecture d&#39;interfaces système, gestion de l&#39;outsourcing
+                        Technological advising, system interfacing architecture, outsourcing management
                     </p>
                     
                 </div>
@@ -341,11 +341,11 @@
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <strong>Ingénieur Ra&amp;D et assistant de cours</strong>, Lausanne
+                        <strong>Ra&amp;D engineer and course assistant</strong>, Lausanne
                     </p>
                     
                     <p>
-                        Web-services géomatiques, animation de conférence, assistant de cours
+                        Geomatic web-services, conference speaker, academic course assistant
                     </p>
                     
                 </div>
@@ -358,11 +358,11 @@
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <strong>Architect et développeur logiciel</strong>, Lausanne
+                        <strong>Software Architect &amp; Developer</strong>, Lausanne
                     </p>
                     
                     <p>
-                        Développement d&#39;applications géostatistiques, développeur software éditeur, animation des formations techniques
+                        Geostatistical applications development, upstream stoftware developer, technical training provider
                     </p>
                     
                 </div>
@@ -375,7 +375,7 @@
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <strong>Apprenti en informatique</strong>, Lausanne
+                        <strong>IT Apprentice</strong>, Lausanne
                     </p>
                     
                 </div>
@@ -386,7 +386,7 @@
         <div class="col-md-6">
             <dt class="h2">
                 <i class="fa fa-university" aria-hidden="true"></i>
-                Formation
+                Education
             </dt>
             
             <dd style="page-break-inside:avoid">
@@ -396,11 +396,11 @@
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <strong>Ecole d&#39;ingénieurs, Comem</strong>, Lausanne
+                        <strong>University of applied sciences, Comem</strong>, Lausanne
                     </p>
                     <p class="text-success">
                         
-                        Diplôme obtenu
+                        Diploma obtained
                         
                     </p>
                     
@@ -414,11 +414,11 @@
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <strong>Ecole de langues, ZMP Class</strong>, Freiburg-im-Breisgau
+                        <strong>Language school, ZMP Class</strong>, Freiburg-im-Breisgau
                     </p>
                     <p class="text-success">
                         
-                        Diplôme obtenu
+                        Diploma obtained
                         
                     </p>
                     
@@ -436,14 +436,14 @@
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <strong>Ecole d&#39;ingénieurs, Telecom</strong>, Yverdon
+                        <strong>University of applied sciences, Telecom</strong>, Yverdon
                     </p>
                     <p class="text-success">
                         
                     </p>
                     
                     <p>
-                        Examen propédeutique réussi, changement de filière pour Comem+
+                        Propaedeutic examination successful, switched to Comem division
                     </p>
                     
                 </div>
@@ -456,11 +456,11 @@
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <strong>Cours passerelle, Maturité professionnelle technique</strong>, Lausanne
+                        <strong>Gateway courses, Maturité professionnelle technique</strong>, Lausanne
                     </p>
                     <p class="text-success">
                         
-                        Diplôme obtenu
+                        Diploma obtained
                         
                     </p>
                     
@@ -474,11 +474,11 @@
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <strong>Ecole de langues, FCE class</strong>, Cambridge, UK
+                        <strong>Language school, FCE class</strong>, Cambridge, UK
                     </p>
                     <p class="text-success">
                         
-                        Diplôme obtenu
+                        Diploma obtained
                         
                     </p>
                     
@@ -496,11 +496,11 @@
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <strong>Apprentissage, IT Service West</strong>, Lausanne
+                        <strong>Apprenticeship, IT Service West</strong>, Lausanne
                     </p>
                     <p class="text-success">
                         
-                        Diplôme obtenu
+                        Diploma obtained
                         
                     </p>
                     
@@ -514,11 +514,11 @@
                 </h4>
                 <div class="text-muted">
                     <p>
-                        <strong>Ecole secondaire, Technical division</strong>, Bussigny
+                        <strong>Secondary school, Technical division</strong>, Bussigny
                     </p>
                     <p class="text-success">
                         
-                        Diplôme obtenu
+                        Diploma obtained
                         
                     </p>
                     
@@ -533,7 +533,7 @@
         <div class="col-md-6">
             <dt class="h2">
                 <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                Diplômes
+                Certifications
             </dt>
             
             <dd style="page-break-inside:avoid">
@@ -547,7 +547,7 @@
                     </p>
                     
                     <p>
-                        Avec mention (prix IT Processing)
+                        With honors (IT processing prize)
                     </p>
                     
                 </div>
@@ -610,12 +610,12 @@
         <div class="col-md-6">
             <dt class="h2">
                 <i class="fa fa-comments-o" aria-hidden="true"></i>
-                Langues
+                Languages
             </dt>
             
             <dd style="page-break-inside:avoid">
                 <h4>
-                    Français
+                    French
                 </h4>
                 <div class="text-muted">
                     <p>
@@ -627,7 +627,7 @@
             
             <dd style="page-break-inside:avoid">
                 <h4>
-                    Anglais
+                    English
                 </h4>
                 <div class="text-muted">
                     <p>
@@ -643,7 +643,7 @@
             
             <dd style="page-break-inside:avoid">
                 <h4>
-                    Allemand
+                    German
                 </h4>
                 <div class="text-muted">
                     <p>
@@ -660,10 +660,10 @@
             <br>
             <dt class="h2">
                 <i class="fa fa-quote-left" aria-hidden="true"></i>
-                Références
+                References
             </dt>
             <dd>
-                Disposible sur demande
+                Available on request
             </dd>
         </div>
     </div>
@@ -954,17 +954,17 @@
         
         <p class="hidden-print small text-muted">
             <i class="fa fa-info-circle" aria-hidden="true"></i>
-            Les technologies sont générées à partir des projets réalisés.
+            Technologies are generated from the accomplished projects data.
         </p>
     <hr class="visible-md visible-lg">
     <dt class="h2" style="page-break-before:always">
         <i class="fa fa-bookmark" aria-hidden="true"></i>
-        Projets (en anglais)
+        Projects
     </dt>
     <a class="hidden-print small"
        href="/about/projects/">
         <i class="fa fa-eye" aria-hidden="true"></i>
-        Plus d&#39;informations sur la page projets (en anglais)
+        More information in the projects page
     </a>
 
         <dd>
@@ -1311,7 +1311,7 @@
     <div class="hidden-print">
         <dt class="h2">
             <i class="fa fa-bookmark" aria-hidden="true"></i>
-            Compétences
+            Skills
         </dt>
         <div class="row small">
             
@@ -1941,7 +1941,7 @@
         </div>
         <small class="text-muted">
             <i class="fa fa-info-circle" aria-hidden="true"></i>
-            Le temps consacré à chaque compétence est calculé à partir de la durée des projets.
+            The time invested in each skill is computed from the projects duration.
         </small>
     </div>
 </dl>
