@@ -1,0 +1,2021 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Curriculum Vitae (fr)</title>
+
+        <script src="/static/lib/jquery-3.4.1.min.js"></script>
+
+        <!-- jquery-ui -->
+        <link rel="stylesheet" href="/static/lib/jquery-ui.css">
+        <script src="/static/lib/jquery-ui.js"></script>
+
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="/static/lib/bootstrap.min.css">
+        <script src="/static/lib/bootstrap.min.js"></script>
+
+        <!-- font-awesome -->
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            rel="stylesheet"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+            crossorigin="anonymous">
+        
+        <!-- fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
+
+        <!-- favicon -->
+        <link rel="icon" type="image/png" href="/favicon.png">
+
+        <!-- local css -->
+        <link rel="stylesheet" href="/static/assets/css/base.css">
+
+        
+
+        
+    </head>
+
+    <body>
+        
+<div class="container">
+    <div class="header _clearfix">
+        
+        <h3 class="text-muted">
+            
+            <a href="/">
+                <img class="icon-logo icon-spin"
+                     style="height:1em; vertical-align:top; -webkit-filter: saturate(60%);"
+                     src="/static/assets/img/flower.svg">
+            </a>
+            
+            Curriculum Vitae (fr)
+        </h3>
+        <hr>
+    </div>
+
+    
+
+<style>
+    /* FIXME: Move style to linked stylesheet */
+    .detail dd {
+        margin-bottom: 10px;
+    }
+    .detail h4,
+    .detail p {
+        margin: 0;
+    }
+
+    .nowrap {
+        white-space: nowrap;
+    }
+
+    dt > i.fa {
+        display: none;
+    }
+
+    /* prevent printing links URL */
+    @media print {
+      a[href]:after {
+        content: none
+      }
+    }
+
+    /* sm grid support from print media
+     * from https://gist.github.com/donnierayjones/6fd9802d992b2d8d6cfd
+     */
+    @media print {
+/* 
+      .text-muted {
+        color: #6c757d !important;
+        font-weight: lighter;
+      }
+ */
+      .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12,
+      .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+        float: left;
+      }
+      .col-md-12,
+      .col-sm-12 {
+        width: 100%;
+      }
+      .col-md-11,
+      .col-sm-11 {
+        width: 91.66666667%;
+      }
+      .col-md-10,
+      .col-sm-10 {
+        width: 83.33333333%;
+      }
+      .col-md-9,
+      .col-sm-9 {
+        width: 75%;
+      }
+      .col-md-8,
+      .col-sm-8 {
+        width: 66.66666667%;
+      }
+      .col-md-7,
+      .col-sm-7 {
+        width: 58.33333333%;
+      }
+      .col-md-6,
+      .col-sm-6 {
+        width: 50%;
+      }
+      .col-md-5,
+      .col-sm-5 {
+        width: 41.66666667%;
+      }
+      .col-md-4,
+      .col-sm-4 {
+        width: 33.33333333%;
+      }
+      .col-md-3,
+      .col-sm-3 {
+        width: 25%;
+      }
+      .col-md-2,
+      .col-sm-2 {
+        width: 16.66666667%;
+      }
+      .col-md-1,
+      .col-sm-1 {
+        width: 8.33333333%;
+      }
+    }
+</style>
+
+<div class="row">
+    <div class="col-xs-10">
+        <div id="contact-info" class="vcard small">
+            <!-- Microformats -->
+            <h1 class="fn" style="font-size:70px;
+                   font-family:'Tangerine',cursive;
+                   font-weight:700">
+                Damien Corpataux
+            </h1>
+            <h2>
+                Ingénieur IT en systèmes d&#39;informations
+            </h2>
+            <p>
+                <i class="fa fa-map-marker text-muted fa-fw" aria-hidden="true"></i>
+                Aubépines 43, 1004 Lausanne
+                <br />
+                <i class="fa fa-phone text-muted fa-fw" aria-hidden="true"></i>
+                <a class="tel" href="tel:+41 79 321 3201">+41 79 321 3201</a>
+                <br />
+                <i class="fa fa-at text-muted fa-fw" aria-hidden="true"></i>
+                <a class="email" href="mailto:d@mien.ch">d@mien.ch</a>
+                
+            </p>
+        </div>
+        <div id="objective">
+            
+            <ul class="list-unstyled text-muted small">
+                
+                <li>
+                    <i class="fa fa-plug fa-fw" aria-hidden="true"></i>
+                    Online CV:
+                    <a href="https://www.mien.ch/about/cv/" target="_blank">https://www.mien.ch/about/cv/</a>
+                </li>
+                
+                <li>
+                    <i class="fa fa-linkedin-square fa-fw" aria-hidden="true"></i>
+                    Linkedin:
+                    <a href="https://www.github.com/damiencorpataux" target="_blank">https://www.github.com/damiencorpataux</a>
+                </li>
+                
+                <li>
+                    <i class="fa fa-github fa-fw" aria-hidden="true"></i>
+                    Github:
+                    <a href="https://www.linkedin.com/in/damiencorpataux" target="_blank">https://www.linkedin.com/in/damiencorpataux</a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+    <div class="col-xs-2">
+        <img class="thumbnail"
+             style="border-radius:50%;
+                    width:100%;
+                    margin:0;"
+             src="/about/cv/static/me.jpg" alt="Damien Corpataux" id="pic" />
+    </div>
+</div>
+
+<hr>
+
+<dl class="detail">
+    <div class="row">
+        <div class="col-md-6">
+            <dt class="h2">
+                <i class="fa fa-suitcase" aria-hidden="true"></i>
+                Expérience
+            </dt>
+            
+            <dd style="page-break-inside:avoid">
+                <h4>
+                    UNIL,
+                    <span class="text-muted">2020 &dash; présent</span>
+                </h4>
+                <div class="text-muted">
+                    <p>
+                        <strong>Gestionnaire de projet</strong>, Lausanne
+                    </p>
+                    
+                    <p>
+                        Migration d&#39;application et système d&#39;archive à long terme
+                    </p>
+                    
+                </div>
+            </dd>
+            
+            <dd style="page-break-inside:avoid">
+                <h4>
+                    UNIGE,
+                    <span class="text-muted">2019 &dash; 2020</span>
+                </h4>
+                <div class="text-muted">
+                    <p>
+                        <strong>Analyste-programmeur</strong>, Geneva
+                    </p>
+                    
+                    <p>
+                        Ingénieurie système, gestion de données, automatisation et intégration pour le BodmerLab
+                    </p>
+                    
+                </div>
+            </dd>
+            
+            <dd style="page-break-inside:avoid">
+                <h4>
+                    Synesys,
+                    <span class="text-muted">2018 &dash; 2019</span>
+                </h4>
+                <div class="text-muted">
+                    <p>
+                        <strong>Intégration et développement de solutions</strong>, Europe &amp; Asia
+                    </p>
+                    
+                    <p>
+                        Digital nomad, systèmes d&#39;informations spécialisés, automatisation et intégration logicielle
+                    </p>
+                    
+                </div>
+            </dd>
+            
+            <dd style="page-break-inside:avoid">
+                <h4>
+                    SI Lausanne,
+                    <span class="text-muted">2014 &dash; 2018</span>
+                </h4>
+                <div class="text-muted">
+                    <p>
+                        <strong>Spécialiste système et télécom</strong>, Lausanne
+                    </p>
+                    
+                    <p>
+                        Systèmes de support des opérations, gestion de réseaux et automatisation logicielle
+                    </p>
+                    
+                </div>
+            </dd>
+            
+            <dd style="page-break-inside:avoid">
+                <h4>
+                    CHUV,
+                    <span class="text-muted">2012 &dash; 2013</span>
+                </h4>
+                <div class="text-muted">
+                    <p>
+                        <strong>Gestionnaire de projets logiciels</strong>, Lausanne
+                    </p>
+                    
+                    <p>
+                        Développement des systèmes d&#39;information et élaboration du cycle de vie pour la Faculté de biologie et médecine
+                    </p>
+                    
+                </div>
+            </dd>
+            
+            <dd style="page-break-inside:avoid">
+                <h4>
+                    UNIL,
+                    <span class="text-muted">2011 &dash; 2012</span>
+                </h4>
+                <div class="text-muted">
+                    <p>
+                        <strong>Architecte et développeur logiciel</strong>, Lausanne
+                    </p>
+                    
+                    <p>
+                        Développement des systèmes d&#39;information et élaboration du cycle de vie pour la Faculté de biologie et médecine
+                    </p>
+                    
+                </div>
+            </dd>
+            
+            <dd style="page-break-inside:avoid">
+                <h4>
+                    Digicall SA,
+                    <span class="text-muted">2009 &dash; 2011</span>
+                </h4>
+                <div class="text-muted">
+                    <p>
+                        <strong>Gestionnaire logiciel</strong>, Denges
+                    </p>
+                    
+                    <p>
+                        Expert technologique, architecture d&#39;interfaces système, gestion de l&#39;outsourcing
+                    </p>
+                    
+                </div>
+            </dd>
+            
+            <dd style="page-break-inside:avoid">
+                <h4>
+                    HEIG-VD,
+                    <span class="text-muted">2006 &dash; 2009</span>
+                </h4>
+                <div class="text-muted">
+                    <p>
+                        <strong>Ingénieur Ra&amp;D et assistant de cours</strong>, Lausanne
+                    </p>
+                    
+                    <p>
+                        Web-services géomatiques, animation de conférences, assistanat de cours
+                    </p>
+                    
+                </div>
+            </dd>
+            
+            <dd style="page-break-inside:avoid">
+                <h4>
+                    Camptocamp SA,
+                    <span class="text-muted">2005 &dash; 2009</span>
+                </h4>
+                <div class="text-muted">
+                    <p>
+                        <strong>Architect et développeur logiciel</strong>, Lausanne
+                    </p>
+                    
+                    <p>
+                        Développement d&#39;applications géostatistiques, développeur software éditeur, animation des formations techniques
+                    </p>
+                    
+                </div>
+            </dd>
+            
+            <dd style="page-break-inside:avoid">
+                <h4>
+                    Swisscom SA,
+                    <span class="text-muted">1996 &dash; 2000</span>
+                </h4>
+                <div class="text-muted">
+                    <p>
+                        <strong>Apprenti en informatique</strong>, Lausanne
+                    </p>
+                    
+                </div>
+            </dd>
+            
+        </div>
+
+        <div class="col-md-6">
+            <dt class="h2">
+                <i class="fa fa-university" aria-hidden="true"></i>
+                Formation
+            </dt>
+            
+            <dd style="page-break-inside:avoid">
+                <h4>
+                    HEIG-VD, Division Comem,
+                    <span class="text-muted">2003 &dash; 2005</span>
+                </h4>
+                <div class="text-muted">
+                    <p>
+                        <strong>Ingénieurie de l&#39;information</strong>, Ecole d&#39;ingénieurs, Lausanne
+                    </p>
+                    <p class="text-success">
+                        
+                        Diplôme obtenu
+                        
+                    </p>
+                    
+                    <p>
+                        Bachelor (BSC) avec mention
+                    </p>
+                    
+                </div>
+            </dd>
+            
+            <dd style="page-break-inside:avoid">
+                <h4>
+                    HEIG-VD, Division Telecom,
+                    <span class="text-muted">2001 &dash; 2003</span>
+                </h4>
+                <div class="text-muted">
+                    <p>
+                        <strong>Ingénieurie des systèmes télécom</strong>, Ecole d&#39;ingénieurs, Yverdon
+                    </p>
+                    <p class="text-success">
+                        
+                    </p>
+                    
+                    <p>
+                        Examen propédeutique réussi, changement de filière pour Comem+
+                    </p>
+                    
+                </div>
+            </dd>
+            
+            <dd style="page-break-inside:avoid">
+                <h4>
+                    Eracom,
+                    <span class="text-muted">2000 &dash; 2001</span>
+                </h4>
+                <div class="text-muted">
+                    <p>
+                        <strong>MPT</strong>, Cours passerelle, Lausanne
+                    </p>
+                    <p class="text-success">
+                        
+                        Diplôme obtenu
+                        
+                    </p>
+                    
+                    <p>
+                        Maturité Professionnelle Technique (MPT)
+                    </p>
+                    
+                </div>
+            </dd>
+            
+            <dd style="page-break-inside:avoid">
+                <h4>
+                    Swisscom SA,
+                    <span class="text-muted">1996 &dash; 2000</span>
+                </h4>
+                <div class="text-muted">
+                    <p>
+                        <strong>IT Service West</strong>, Apprentissage, Lausanne
+                    </p>
+                    <p class="text-success">
+                        
+                        Diplôme obtenu
+                        
+                    </p>
+                    
+                    <p>
+                        Certificat Fédéral de Capacité (CFC) en tant qu&#39;informaticien
+                    </p>
+                    
+                </div>
+            </dd>
+            
+            <dd style="page-break-inside:avoid">
+                <h4>
+                    Ecole secondaire,
+                    <span class="text-muted">1985 &dash; 1995</span>
+                </h4>
+                <div class="text-muted">
+                    <p>
+                        <strong>Division technique</strong>, Ecole secondaire, Bussigny
+                    </p>
+                    <p class="text-success">
+                        
+                        Diplôme obtenu
+                        
+                    </p>
+                    
+                    <p>
+                        Certificat scolaire
+                    </p>
+                    
+                </div>
+            </dd>
+            
+            <dd style="page-break-inside:avoid">
+                <h4>
+                    Studio School,
+                    <span class="text-muted">2003 &dash; 2003</span>
+                </h4>
+                <div class="text-muted">
+                    <p>
+                        <strong>ZMP Sommerklasse</strong>, Ecole de langues, Freiburg-im-Breisgau
+                    </p>
+                    <p class="text-success">
+                        
+                        Diplôme obtenu
+                        
+                    </p>
+                    
+                    <p>
+                        Goethe C1 Zentrale Mittelstufenprüfung (ZMP)
+                    </p>
+                    
+                </div>
+            </dd>
+            
+            <dd style="page-break-inside:avoid">
+                <h4>
+                    Newnham Language School,
+                    <span class="text-muted">1996 &dash; 1996</span>
+                </h4>
+                <div class="text-muted">
+                    <p>
+                        <strong>FCE Class</strong>, Ecole de langues, Cambridge, UK
+                    </p>
+                    <p class="text-success">
+                        
+                        Diplôme obtenu
+                        
+                    </p>
+                    
+                    <p>
+                        First Certificate of English (FCE)
+                    </p>
+                    
+                </div>
+            </dd>
+            
+        </div>
+    </div>
+
+    <hr class="visible-md visible-lg">
+    <div class="row">
+        <div class="col-md-6">
+            <dt class="h2">
+                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                Diplômes
+            </dt>
+            
+            <dd style="page-break-inside:avoid">
+                <h4>
+                    Bachelor of Engineering (BSC),
+                    <span class="text-muted">2006</span>
+                </h4>
+                <div class="text-muted">
+                    <p>
+                        <strong>HEIG-VD</strong>, Lausanne
+                    </p>
+                    
+                    <p>
+                        Avec mention (prix IT Processing)
+                    </p>
+                    
+                </div>
+            </dd>
+            
+            <dd style="page-break-inside:avoid">
+                <h4>
+                    Goethe Zentrale Mittelstufenprüfung,
+                    <span class="text-muted">2003</span>
+                </h4>
+                <div class="text-muted">
+                    <p>
+                        <strong>UNIL</strong>, Lausanne
+                    </p>
+                    
+                </div>
+            </dd>
+            
+            <dd style="page-break-inside:avoid">
+                <h4>
+                    Cambridge First Certificate,
+                    <span class="text-muted">2001</span>
+                </h4>
+                <div class="text-muted">
+                    <p>
+                        <strong>HEIG-VD</strong>, Yverdon
+                    </p>
+                    
+                </div>
+            </dd>
+            
+            <dd style="page-break-inside:avoid">
+                <h4>
+                    Federal Certificate of Capacity,
+                    <span class="text-muted">2000</span>
+                </h4>
+                <div class="text-muted">
+                    <p>
+                        <strong>Swisscom SA</strong>, Lausanne
+                    </p>
+                    
+                </div>
+            </dd>
+            
+            <dd style="page-break-inside:avoid">
+                <h4>
+                    Certificat scolaire,
+                    <span class="text-muted">1995</span>
+                </h4>
+                <div class="text-muted">
+                    <p>
+                        <strong>Ecole secondaire</strong>, Bussigny
+                    </p>
+                    
+                </div>
+            </dd>
+            
+            <br>
+        </div>
+        <div class="col-md-6">
+            <dt class="h2">
+                <i class="fa fa-comments-o" aria-hidden="true"></i>
+                Langues
+            </dt>
+            
+            <dd style="page-break-inside:avoid">
+                <h4>
+                    Français
+                </h4>
+                <div class="text-muted">
+                    <p>
+                        <strong>Langue maternelle (mother tongue)</strong>
+                    </p>
+                    
+                </div>
+            </dd>
+            
+            <dd style="page-break-inside:avoid">
+                <h4>
+                    Anglais
+                </h4>
+                <div class="text-muted">
+                    <p>
+                        <strong>C1, fluent (spoken and written)</strong>
+                    </p>
+                    
+                    <p class="text-success">
+                        First Certificate, grade A
+                    </p>
+                    
+                </div>
+            </dd>
+            
+            <dd style="page-break-inside:avoid">
+                <h4>
+                    Allemand
+                </h4>
+                <div class="text-muted">
+                    <p>
+                        <strong>B1, gut (schriftlich und mündlich)</strong>
+                    </p>
+                    
+                    <p class="text-success">
+                        Goethe Zentrale Mittelstufenprüfung Zertifikat
+                    </p>
+                    
+                </div>
+            </dd>
+            
+            <br>
+            <dt class="h2">
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+                Références
+            </dt>
+            <dd>
+                Disposible sur demande
+            </dd>
+        </div>
+    </div>
+
+    <hr class="visible-md visible-lg">
+    <div class="hidden-print">
+        <dt class="h2" style="page-break-before:always">
+            <i class="fa fa-cogs" aria-hidden="true"></i>
+            Technologies
+        </dt>
+        <div class="row small">
+        
+            <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
+                <h4>
+                    Languages
+                </h4>
+                <p>
+            
+                <a href="https://fr.wikipedia.org/wiki/Bourne-Again_shell">
+                    bash,
+                </a>
+            
+                <a href="http://www.ecmascript.org/">
+                    javascript,
+                </a>
+            
+                <a href="https://www.python.org/about/">
+                    python,
+                </a>
+            
+                <a href="http://php.net/">
+                    php,
+                </a>
+            
+                <a href="https://en.wikipedia.org/wiki/Java_(programming_language)">
+                    java,
+                </a>
+            
+                <a href="https://fr.wikipedia.org/wiki/C++">
+                    c++,
+                </a>
+            
+                <a href="http://geojson.org/">
+                    geojson,
+                </a>
+            
+                <a href="http://www.json.org/">
+                    json,
+                </a>
+            
+                <a href="https://en.wikipedia.org/wiki/XML">
+                    xml,
+                </a>
+            
+                <a href="https://en.wikipedia.org/wiki/XSL">
+                    xsl,
+                </a>
+            
+                <a href="https://en.wikipedia.org/wiki/HTML">
+                    html,
+                </a>
+            
+                <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">
+                    css,
+                </a>
+            
+                <a href="https://en.wikipedia.org/wiki/Representational_state_transfer">
+                    rest,
+                </a>
+            
+                <a href="https://fr.wikipedia.org/wiki/WebSocket">
+                    websockets,
+                </a>
+            
+                <a href="https://fr.wikipedia.org/wiki/MQTT">
+                    mqtt,
+                </a>
+            
+                <a href="https://en.wikipedia.org/wiki/SOAP">
+                    soap,
+                </a>
+            
+                <a href="https://shibboleth.net/">
+                    shibboleth,
+                </a>
+            
+                <a href="https://en.wikipedia.org/wiki/Simple_Network_Management_Protocol">
+                    snmp,
+                </a>
+            
+                <a href="https://en.wikipedia.org/wiki/DOCSIS">
+                    docsis,
+                </a>
+            
+                <a href="https://en.wikipedia.org/wiki/Fiber_to_the_x">
+                    ftth,
+                </a>
+            
+                <a href="https://en.wikipedia.org/wiki/Web_Feature_Service">
+                    wfs
+                </a>
+            
+                </p>
+            </dd>
+        
+            <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
+                <h4>
+                    Components
+                </h4>
+                <p>
+            
+                <a href="https://github.com/damiencorpataux/xfm-php">
+                    xfm,
+                </a>
+            
+                <a href="http://flask.pocoo.org/">
+                    flask,
+                </a>
+            
+                <a href="https://nodejs.org/">
+                    node.js,
+                </a>
+            
+                <a href="https://reactjs.org/">
+                    reactjs,
+                </a>
+            
+                <a href="https://angular.io/">
+                    angular,
+                </a>
+            
+                <a href="http://cartoweb.org/">
+                    cartoweb,
+                </a>
+            
+                <a href="http://mapserver.org/">
+                    mapserver,
+                </a>
+            
+                <a href="http://openlayers.org/">
+                    openlayers,
+                </a>
+            
+                <a href="https://www.sencha.com/products/extjs/">
+                    extjs,
+                </a>
+            
+                <a href="http://www.geoext.org/">
+                    geoext,
+                </a>
+            
+                <a href="https://jquery.com/">
+                    jquery,
+                </a>
+            
+                <a href="http://getbootstrap.com/">
+                    bootstrap,
+                </a>
+            
+                <a href="https://www.sqlalchemy.org/">
+                    sqlalchemy,
+                </a>
+            
+                <a href="http://www.qgis.org/">
+                    qgis,
+                </a>
+            
+                <a href="https://httpd.apache.org/ABOUT_APACHE.html">
+                    apache,
+                </a>
+            
+                <a href="http://nginx.org/">
+                    nginx,
+                </a>
+            
+                <a href="https://uwsgi-docs.readthedocs.io/en/latest/">
+                    uwsgi,
+                </a>
+            
+                <a href="https://www.postgresql.org/about/">
+                    postgres,
+                </a>
+            
+                <a href="http://postgis.net/">
+                    postgis,
+                </a>
+            
+                <a href="https://en.wikipedia.org/wiki/Oracle_Database">
+                    oracle,
+                </a>
+            
+                <a href="https://www.mysql.com/">
+                    mysql,
+                </a>
+            
+                <a href="https://git-scm.com/">
+                    git,
+                </a>
+            
+                <a href="https://subversion.apache.org/">
+                    svn,
+                </a>
+            
+                <a href="https://en.wikipedia.org/wiki/General-purpose_input/output">
+                    gpio,
+                </a>
+            
+                <a href="https://en.wikipedia.org/wiki/Google_APIs">
+                    google-api
+                </a>
+            
+                </p>
+            </dd>
+        
+            <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
+                <h4>
+                    Plateforms
+                </h4>
+                <p>
+            
+                <a href="https://www.debian.org/intro/about.en.html">
+                    debian,
+                </a>
+            
+                <a href="http://www.ubuntu.com/">
+                    ubuntu,
+                </a>
+            
+                <a href="https://www.redhat.com/en">
+                    redhat,
+                </a>
+            
+                <a href="https://www.centos.org/">
+                    centos,
+                </a>
+            
+                <a href="https://en.wikipedia.org/wiki/Microsoft_Windows">
+                    windows,
+                </a>
+            
+                <a href="https://www.espressif.com/en/products/socs">
+                    esp,
+                </a>
+            
+                <a href="https://en.wikipedia.org/wiki/AVR_microcontrollers">
+                    avr,
+                </a>
+            
+                <a href="https://en.wikipedia.org/wiki/ARM_architecture">
+                    arm,
+                </a>
+            
+                <a href="https://en.wikipedia.org/wiki/Arduino">
+                    arduino
+                </a>
+            
+                </p>
+            </dd>
+        
+            <dd class="col-sm-3" style="margin-bottom:25px; page-break-inside:avoid">
+                <h4>
+                    Methodologies
+                </h4>
+                <p>
+            
+                <a href="https://en.wikipedia.org/wiki/Agile_software_development">
+                    agile,
+                </a>
+            
+                <a href="https://en.wikipedia.org/wiki/Kanban">
+                    kanban,
+                </a>
+            
+                <a href="https://en.wikipedia.org/wiki/Scrum_(software_development)">
+                    scrum,
+                </a>
+            
+                <a href="https://en.wikipedia.org/wiki/DevOps">
+                    devops,
+                </a>
+            
+                <a href="https://en.wikipedia.org/wiki/Unified_Modeling_Language">
+                    uml
+                </a>
+            
+                </p>
+            </dd>
+        
+        </div>
+        
+        <p class="small text-muted">
+            <i class="fa fa-info-circle" aria-hidden="true"></i>
+            Les technologies sont générées à partir des projets réalisés.
+        </p>
+    </div>
+ 
+    <hr class="visible-md visible-lg">
+    <div class="_hidden-print" style="page-break-before:always">
+        <dt class="h2">
+            <i class="fa fa-bookmark" aria-hidden="true"></i>
+            Projets (en anglais)
+        </dt>
+        <a class="hidden-print small"
+        href="/about/projects/">
+            <i class="fa fa-eye" aria-hidden="true"></i>
+            Plus d&#39;informations sur la page projets (en anglais)
+        </a>
+    
+            <dd>
+                <h4>
+                    Management of application migration,
+                    <span class="text-muted">2021</span>
+                </h4>
+                <p class="text-muted small">
+                    Migration of an application for meeting activities support
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    Archiving solution and search engine,
+                    <span class="text-muted">2021</span>
+                </h4>
+                <p class="text-muted small">
+                    Automated archiving solution for structured, secure and long-term storage of data from heterogeneous data sources
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    Real-time human interaction system based on IoT,
+                    <span class="text-muted">2020</span>
+                </h4>
+                <p class="text-muted small">
+                    Consulting, system architecture, technical team coordination and development of the specialized gaming system CrazySchool
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    Headless CMS for collaborative content,
+                    <span class="text-muted">2020</span>
+                </h4>
+                <p class="text-muted small">
+                    Collaborative editing and publishing tool for French literature teaching material
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    Outsourcing technical coordination,
+                    <span class="text-muted">2019</span>
+                </h4>
+                <p class="text-muted small">
+                    Technical management for outsourcing of software components
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    System strategy, administration and migration,
+                    <span class="text-muted">2019</span>
+                </h4>
+                <p class="text-muted small">
+                    Management of academic server infrastructure, technical strategy and migration
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    Crypto-trading strategy backtesting,
+                    <span class="text-muted">2019</span>
+                </h4>
+                <p class="text-muted small">
+                    Cryptocurrency trading algorithm backtesting
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    NLP processor to kumu.io visualization,
+                    <span class="text-muted">2019</span>
+                </h4>
+                <p class="text-muted small">
+                    Glossary coherence/issue analyzer for the decentralized identity (DID) white papers
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    iRODS based storage with policy automation,
+                    <span class="text-muted">2018</span>
+                </h4>
+                <p class="text-muted small">
+                    Using iRODS to automate storage of privacy-sensitive content with quarantine policy
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    Anti-DDOS system using OpenBSD and Packetfilter,
+                    <span class="text-muted">2018</span>
+                </h4>
+                <p class="text-muted small">
+                    
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    PSU Monitoring,
+                    <span class="text-muted">2017</span>
+                </h4>
+                <p class="text-muted small">
+                    Using Raspberry Pi GPIO to monitor Power Supplies from CASA Systems
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    SAP CRM, OpenAM and LDAP integration,
+                    <span class="text-muted">2016</span>
+                </h4>
+                <p class="text-muted small">
+                    Integration of authentication and interactions between SAP CRM and corporate LDAP/OpenAM for automating Customer Care processes
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    Project Workflow Management API,
+                    <span class="text-muted">2016</span>
+                </h4>
+                <p class="text-muted small">
+                    API for interacting between the access network devices and the organisation&#39;s Process Workflow Management tool
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    Selfcare API,
+                    <span class="text-muted">2016</span>
+                </h4>
+                <p class="text-muted small">
+                    Customer Selfcare API acting as a functional and security facade for an outsourced Selfcare Web-GUI
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    DOCSIS Topology Tool,
+                    <span class="text-muted">2015</span>
+                </h4>
+                <p class="text-muted small">
+                    REST representation of the DOCSIS topology (including discovery, presentation, interrogation)
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    DOCSIS QOS Map,
+                    <span class="text-muted">2015</span>
+                </h4>
+                <p class="text-muted small">
+                    Cable-modems HF signal quality map
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    SAS, Subscriber Activation System,
+                    <span class="text-muted">2014</span>
+                </h4>
+                <p class="text-muted small">
+                    Provisioning system for customer service activation management (DOCSIS, FTTH, VoIP)
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    The Wall, Monitoring Wall Controller,
+                    <span class="text-muted">2014</span>
+                </h4>
+                <p class="text-muted small">
+                    Web remote control for the NOC monitoring wall (screen and spinetix projects controller)
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    JQuery Plugin: jquery-smokeping-zoom,
+                    <span class="text-muted">2014</span>
+                </h4>
+                <p class="text-muted small">
+                    A JQuery plugin for zooming in smokeping (and other) graphs
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    System administration,
+                    <span class="text-muted">2014</span>
+                </h4>
+                <p class="text-muted small">
+                    Availability, security, virtualisation, maintenance, performance, tuning
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    CUS-OFS Reporting tool,
+                    <span class="text-muted">2012</span>
+                </h4>
+                <p class="text-muted small">
+                    Capture and reporting tool of human resources effort
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    IAFBM,
+                    <span class="text-muted">2011</span>
+                </h4>
+                <p class="text-muted small">
+                    Administrative intranet of the Faculty of Biology and Medicine
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    TL Mobile Timetable,
+                    <span class="text-muted">2010</span>
+                </h4>
+                <p class="text-muted small">
+                    A mobile TL timetable (transports lausannois), before TL Live existed
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    Okikoo mobile app REST API,
+                    <span class="text-muted">2010</span>
+                </h4>
+                <p class="text-muted small">
+                    REST API for the outsourced iPhone and Android mobile applications
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    Okikoo directory,
+                    <span class="text-muted">2009</span>
+                </h4>
+                <p class="text-muted small">
+                    User-generated content-oriented business and private directory
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    Swiss Rivers,
+                    <span class="text-muted">2009</span>
+                </h4>
+                <p class="text-muted small">
+                    Rivers flood prediction map
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    PHP XFramework,
+                    <span class="text-muted">2009</span>
+                </h4>
+                <p class="text-muted small">
+                    Flask-like microframework in PHP (xfm-php on github)
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    Technical Trainer in the field of Geomatic Open-source Technologies,
+                    <span class="text-muted">2008</span>
+                </h4>
+                <p class="text-muted small">
+                    Dispensing 1-4 days courses on Open Source Geomatic technologies as a Technical Trainer for Camptocamp SA
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    Assistant for the Database and Programming courses,
+                    <span class="text-muted">2006</span>
+                </h4>
+                <p class="text-muted small">
+                    Create, animate and assess labs with students
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    Ra&amp;D at Geo-IICT institute,
+                    <span class="text-muted">2006</span>
+                </h4>
+                <p class="text-muted small">
+                    Research, implementation, conferences
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    Geostat Plugin for the CartoWeb framework,
+                    <span class="text-muted">2007</span>
+                </h4>
+                <p class="text-muted small">
+                    Development of the Geostat Plugin for statistical data thematic mapping
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    Guichet Cartographique Lausanne,
+                    <span class="text-muted">2007</span>
+                </h4>
+                <p class="text-muted small">
+                    Geographic map of the city of Lausanne
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    Gestatistical and thematic GIS solution for IFREMER Institute,
+                    <span class="text-muted">2007</span>
+                </h4>
+                <p class="text-muted small">
+                    Highly customizable geostatistical and thematic reporting tool
+                </p>
+        </dd>
+    
+            <dd>
+                <h4>
+                    AJAX implementation in the CartoWeb GIS Framework,
+                    <span class="text-muted">2005</span>
+                </h4>
+                <p class="text-muted small">
+                    Implement the then new AJAX technology into the client-server-based CartoWeb framework
+                </p>
+        </dd>
+    
+    </div>
+
+    <hr class="visible-md visible-lg">
+    <div class="hidden-print">
+        <dt class="h2">
+            <i class="fa fa-bookmark" aria-hidden="true"></i>
+            Compétences
+        </dt>
+        <div class="row small">
+            
+            
+            <dd class="col-md-2">
+                <h4 style="margin-bottom:16px; margin-top:8px">
+                    Fields
+                </h4>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:51.77865612648221%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>gis</b>
+                        
+                        (131 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:49.40711462450593%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>backend</b>
+                        
+                        (125 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:43.873517786561266%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>frontend</b>
+                        
+                        (111 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:9.486166007905137%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>osgeo</b>
+                        
+                        (24 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:1.185770750988142%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>electronics</b>
+                        
+                        (3 months)
+                    </div>
+                </div>
+                
+            </dd>
+            
+            <dd class="col-md-2">
+                <h4 style="margin-bottom:16px; margin-top:8px">
+                    Languages
+                </h4>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:70.7509881422925%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>javascript</b>
+                        
+                        (179 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:58.89328063241107%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>php</b>
+                        
+                        (149 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:46.6403162055336%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>html</b>
+                        
+                        (118 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:46.6403162055336%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>css</b>
+                        
+                        (118 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:41.50197628458498%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>java</b>
+                        
+                        (105 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:39.920948616600796%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>python</b>
+                        
+                        (101 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:30.8300395256917%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>xml</b>
+                        
+                        (78 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:29.64426877470356%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>rest</b>
+                        
+                        (75 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:28.458498023715418%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>xsl</b>
+                        
+                        (72 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:11.067193675889328%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>json</b>
+                        
+                        (28 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:3.557312252964427%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>soap</b>
+                        
+                        (9 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:3.1620553359683794%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>c++</b>
+                        
+                        (8 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:0.7905138339920948%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>geojson</b>
+                        
+                        (2 months)
+                    </div>
+                </div>
+                
+            </dd>
+            
+            <dd class="col-md-2">
+                <h4 style="margin-bottom:16px; margin-top:8px">
+                    Frameworks
+                </h4>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:61.6600790513834%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>git</b>
+                        
+                        (156 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:45.059288537549406%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>svn</b>
+                        
+                        (114 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:41.50197628458498%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>mysql</b>
+                        
+                        (105 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:27.66798418972332%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>xfm</b>
+                        
+                        (70 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:18.57707509881423%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>extjs</b>
+                        
+                        (47 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:17.391304347826086%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>shibboleth</b>
+                        
+                        (44 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:16.205533596837945%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>flask</b>
+                        
+                        (41 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:13.438735177865613%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>jquery</b>
+                        
+                        (34 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:10.276679841897234%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>openlayers</b>
+                        
+                        (26 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:9.486166007905137%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>geoext</b>
+                        
+                        (24 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:9.486166007905137%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>mapfish</b>
+                        
+                        (24 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:5.533596837944664%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>reactjs</b>
+                        
+                        (14 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:3.557312252964427%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>node.js</b>
+                        
+                        (9 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:2.371541501976284%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>angular</b>
+                        
+                        (6 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:1.9762845849802373%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>google-api</b>
+                        
+                        (5 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:1.185770750988142%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>gpio</b>
+                        
+                        (3 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:1.185770750988142%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>cartoweb</b>
+                        
+                        (3 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:0.7905138339920948%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>numpy</b>
+                        
+                        (2 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:0.7905138339920948%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>pandas</b>
+                        
+                        (2 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:0.7905138339920948%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>matplotlib</b>
+                        
+                        (2 months)
+                    </div>
+                </div>
+                
+            </dd>
+            
+            <dd class="col-md-2">
+                <h4 style="margin-bottom:16px; margin-top:8px">
+                    Os &amp; Network
+                </h4>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:100.0%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>debian</b>
+                        
+                        (253 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:38.73517786561265%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>redhat</b>
+                        
+                        (98 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:29.64426877470356%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>windows</b>
+                        
+                        (75 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:28.458498023715418%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>docsis</b>
+                        
+                        (72 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:25.296442687747035%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>ftth</b>
+                        
+                        (64 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:20.158102766798418%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>puppet</b>
+                        
+                        (51 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:9.486166007905137%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>snmp</b>
+                        
+                        (24 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:8.300395256916996%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>ubuntu</b>
+                        
+                        (21 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:3.1620553359683794%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>mqtt</b>
+                        
+                        (8 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:1.185770750988142%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>raspi</b>
+                        
+                        (3 months)
+                    </div>
+                </div>
+                
+            </dd>
+            
+            <dd class="col-md-2">
+                <h4 style="margin-bottom:16px; margin-top:8px">
+                    Environments
+                </h4>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:47.43083003952569%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>commercial</b>
+                        
+                        (120 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:33.201581027667984%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>academic</b>
+                        
+                        (84 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:33.201581027667984%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>ra&amp;d</b>
+                        
+                        (84 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:18.972332015810274%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>state</b>
+                        
+                        (48 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:18.972332015810274%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>startup</b>
+                        
+                        (48 months)
+                    </div>
+                </div>
+                
+            </dd>
+            
+            <dd class="col-md-2">
+                <h4 style="margin-bottom:16px; margin-top:8px">
+                    Methodologies
+                </h4>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:51.38339920948617%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>agile</b>
+                        
+                        (130 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:32.41106719367589%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>kanban</b>
+                        
+                        (82 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:15.019762845849801%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>uml</b>
+                        
+                        (38 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:7.114624505928854%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>scrum</b>
+                        
+                        (18 months)
+                    </div>
+                </div>
+                
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-success"
+                         style="width:6.324110671936759%; padding-left:10px;text-align:left;color:black;white-space:nowrap;overflow:display"
+                         role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <b>devops</b>
+                        
+                        (16 months)
+                    </div>
+                </div>
+                
+            </dd>
+            
+        </div>
+        <small class="text-muted">
+            <i class="fa fa-info-circle" aria-hidden="true"></i>
+            Le temps consacré à chaque compétence est calculé à partir de la durée des projets.
+        </small>
+    </div>
+</dl>
+
+
+    
+
+
+</div> <!-- /container -->
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="/static/lib/ie10-viewport-bug-workaround.js"></script>
+
+<script>
+    /**
+     * Replaces all <img src="*.svg"> with <svg> containing src contents.
+     * https://stackoverflow.com/a/35126817/1300775
+     */
+    $(document).ready(function() {
+        $('img[src$=".svg"]').each(function() {
+            var $img = jQuery(this);
+            var imgURL = $img.attr('src');
+            var attributes = $img.prop("attributes");
+
+            $.get(imgURL, function(data) {
+                // Get the SVG tag, ignore the rest
+                var $svg = jQuery(data).find('svg');
+
+                // Remove any invalid XML tags
+                $svg = $svg.removeAttr('xmlns:a');
+
+                // Loop through IMG attributes and apply on SVG
+                $.each(attributes, function() {
+                    $svg.attr(this.name, this.value);
+                });
+
+                // Replace IMG with SVG
+                $img.replaceWith($svg);
+            }, 'xml');
+        });
+    });
+</script>
+
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-9530903-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-9530903-1');
+</script>
+
+    </body>
+</html>
