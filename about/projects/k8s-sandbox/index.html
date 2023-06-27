@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Project details</title>
+
+        <script src="/static/lib/jquery-3.4.1.min.js"></script>
+
+        <!-- jquery-ui -->
+        <link rel="stylesheet" href="/static/lib/jquery-ui.css">
+        <script src="/static/lib/jquery-ui.js"></script>
+
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="/static/lib/bootstrap.min.css">
+        <script src="/static/lib/bootstrap.min.js"></script>
+
+        <!-- font-awesome -->
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            rel="stylesheet"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+            crossorigin="anonymous">
+        
+        <!-- fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Tangerine:400,700' rel='stylesheet' type='text/css'>
+
+        <!-- favicon -->
+        <link rel="icon" type="image/png" href="/favicon.png">
+
+        <!-- local css -->
+        <link rel="stylesheet" href="/static/assets/css/base.css">
+
+        
+
+        
+    </head>
+
+    <body>
+        
+<div class="container">
+    <div class="header _clearfix">
+        
+        <h3 class="text-muted">
+            
+            <a href="/">
+                <img class="icon-logo icon-spin"
+                     style="height:1em; vertical-align:top; -webkit-filter: saturate(60%);"
+                     src="/static/assets/img/flower.svg">
+            </a>
+            
+            Project details
+        </h3>
+        <hr>
+    </div>
+
+    
+
+<div>
+    <a href="/about/projects/">
+        <i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+        All Projects
+    </a>
+    
+    <br><br>
+      
+      <a class="btn btn-default btn-xs" href="https://kumu.io/vijarn/rwot-glossary#rwot-glossary/identity-management-idm" target="_blank">
+          <i class="fa fa-external-link-square" aria-hidden="true"></i>
+          &nbsp;
+          Open project link
+      </a>
+      
+      
+    
+    <br>
+</div>
+
+<div>
+    <div>
+        <h1>Kubernetes sandbox on Raspberry Pi, 2019</h1>
+        <p>
+            
+            Testing 1 master and 2 nodes on Raspberry Pi
+        </p>
+
+        
+        <div style="margin: 25px 0">
+            <img src="/about/projects/static/kubeadm.png" style="width:100%; _visibility:hidden">
+        </div>
+        
+
+        <p class="small text-muted">
+            
+    <a href="https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/"
+               style="text-decoration:none;border-bottom: 1px dotted lightgray;color:inherit"
+               target="_blank">kubeadm</a>&nbsp;
+    <a href="https://kubernetes.io/"
+               style="text-decoration:none;border-bottom: 1px dotted lightgray;color:inherit"
+               target="_blank">kubernetes</a>&nbsp;
+    
+
+        </p>
+</div>
+</div>
+
+
+    
+    <footer class="small text-muted text-right">
+        <hr>
+        <p>&copy; 2023</p>
+    </footer>
+    
+
+</div> <!-- /container -->
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="/static/lib/ie10-viewport-bug-workaround.js"></script>
+
+<script>
+    /**
+     * Replaces all <img src="*.svg"> with <svg> containing src contents.
+     * https://stackoverflow.com/a/35126817/1300775
+     */
+    $(document).ready(function() {
+        $('img[src$=".svg"]').each(function() {
+            var $img = jQuery(this);
+            var imgURL = $img.attr('src');
+            var attributes = $img.prop("attributes");
+
+            $.get(imgURL, function(data) {
+                // Get the SVG tag, ignore the rest
+                var $svg = jQuery(data).find('svg');
+
+                // Remove any invalid XML tags
+                $svg = $svg.removeAttr('xmlns:a');
+
+                // Loop through IMG attributes and apply on SVG
+                $.each(attributes, function() {
+                    $svg.attr(this.name, this.value);
+                });
+
+                // Replace IMG with SVG
+                $img.replaceWith($svg);
+            }, 'xml');
+        });
+    });
+</script>
+
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-9530903-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-9530903-1');
+</script>
+
+    </body>
+</html>
